@@ -2,13 +2,19 @@
 <html ng-app="mikApp">
 
 <head>
+  <base href="/">
   <title>Skarpety MIK</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Roboto:400,500,700,400italic'>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="node_modules/angular-material/angular-material.min.css">
+  <link rel="stylesheet" href="styles/main.css">
 
   <script type="text/javascript" src="node_modules/angular/angular.min.js"></script>
+
+  <script type="text/javascript" src="node_modules/angular-ui-router/release/angular-ui-router.min.js"></script>
 
   <script type="text/javascript" src="node_modules/angular-animate/angular-animate.min.js"></script>
   <script type="text/javascript" src="node_modules/angular-aria/angular-aria.min.js"></script>
@@ -17,48 +23,21 @@
 
   <script type="text/javascript" src="app/app.module.js"></script>
   <script type="text/javascript" src="app/app.config.js"></script>
+  <script type="text/javascript" src="app/app.routes.js"></script>
+
+  <script type="text/javascript" src="app/main/main.controller.js"></script>
+
+  <script type="text/javascript" src="app/offer/offer.controller.js"></script>
 
 </head>
 
 <body>
   <div layout="column" layout-fill>
-    <md-toolbar class="md-primary md-hue-2">
-
-      <div class="md-toolbar-tools">
-        <span>Mik Skarpety</span>
-
-        <!-- fill up the space between left and right area -->
-        <span flex></span>
-
-        <md-button>
-          Strona główna
-        </md-button>
-        <md-button>
-          Oferta
-        </md-button>
-        <md-button>
-          O firmie
-        </md-button>
-        <md-button>
-          Kontakt
-        </md-button>
-      </div>
+    <md-toolbar class="md-primary md-hue-2" ng-include="'/app/main/views/menu.template.html'">
 
     </md-toolbar>
-    <md-content>
-      <div layout="row" layout-align="center start">
-        <div flex="20">
-          <img src="images/mik.jpg" alt="Skarpety MIK">
-        </div>
-        <div layout="column" flex="40">
-          <h2>
-            Skarpety od A do Z
-          </h2>
-          <md-button class="md-accent md-raised">
-            Zobacz najnowsza oferte
-          </md-button>
-        </div>
-      </div>
+    <md-content ui-view>
+
     </md-content>
   </div>
 </body>

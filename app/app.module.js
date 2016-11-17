@@ -1,1 +1,1 @@
-angular.module('mikApp', ['ngMaterial']);
+angular.module('mikApp', ['ngMaterial', 'ui.router']);
