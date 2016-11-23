@@ -7,29 +7,29 @@
       <p class="home-title" hide show-gt-sm>
         Skarpety od A do Z
       </p>
-      <md-button class="md-accent md-raised">
+      <md-button class="md-accent md-raised" ui-sref="offer">
         Zobacz najnowsza oferte
       </md-button>
     </div>
   </div>
   <md-divider></md-divider>
-  <div layout="row">
-    <md-card>
+  <div layout="column" layout-gt-sm="row">
+    <md-card class="orange-card">
       <md-card-content>
         <h2>Dołącz do grona zadowolonych klientów!</h2>
       </md-card-content>
-      <md-card-footer>
-        KONTAKT
-      </md-card-footer>
+      <md-card-actions layout="row" layout-align="end center">
+        <md-button ui-sref="contact">KONTAKT</md-button>
+      </md-card-actions>
     </md-card>
-    <md-card>
+    <md-card class="cyan-card">
       <md-card-content>
         <h2>od 1989 roku!</h2>
         <p>Firma Dziewiarstwo Maszynowe Mieczysław Klimczak istnieje na rynku od 1989 roku.</p>
       </md-card-content>
-      <md-card-footer>
-        DOWIEDZ SIĘ WIECEJ
-      </md-card-footer>
+      <md-card-actions layout="row" layout-align="end center">
+        <md-button ui-sref="about">DOWIEDZ SIĘ WIECEJ</md-button>
+      </md-card-actions>
     </md-card>
   </div>
 </div>

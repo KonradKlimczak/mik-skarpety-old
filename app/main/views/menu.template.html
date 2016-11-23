@@ -1,19 +1,24 @@
 <div class="md-toolbar-tools">
-  <span>Mik Skarpety</span>
+  <div flex-offset-gt-sm="10" flex-gt-sm="80" layout="row-reverse" layout-gt-sm="row" layout-align="space-between center">
+    <span flex-order="1" flex-order-gt-sm="-1">Mik Skarpety</span>
 
-  <!-- fill up the space between left and right area -->
-  <span flex></span>
-
-  <md-button ui-sref="home">
-    Strona główna
-  </md-button>
-  <md-button>
-    Oferta
-  </md-button>
-  <md-button>
-    O firmie
-  </md-button>
-  <md-button ui-sref="contact">
-    Kontakt
-  </md-button>
+    <div flex-order="0">
+      
+      <md-button ng-click="toggleLeftMenu()" class="md-icon-button" aria-label="Menu" hide-gt-sm>
+        <md-icon md-font-set="material-icons"> menu </md-icon>
+      </md-button>
+      <md-button ui-sref="home" hide show-gt-sm>
+        Strona główna
+      </md-button>
+      <md-button ui-sref="offer" hide show-gt-sm>
+        Oferta
+      </md-button>
+      <md-button ui-sref="about" hide show-gt-sm>
+        O firmie
+      </md-button>
+      <md-button ui-sref="contact" hide show-gt-sm>
+        Kontakt
+      </md-button>
+    </div>
+  </div>
 </div>

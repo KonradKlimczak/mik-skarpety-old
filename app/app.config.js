@@ -1,4 +1,4 @@
-angular.module('mikApp').config(function ($mdThemingProvider) {
+angular.module('mikApp').config(['mdThemingProvider', function ($mdThemingProvider) {
 
     $mdThemingProvider.theme('default')
         .primaryPalette('red', {
@@ -13,4 +13,4 @@ angular.module('mikApp').config(function ($mdThemingProvider) {
             'default': '500' // use shade 200 for default, and keep all other shades the same
         });
 
-});
+}]);

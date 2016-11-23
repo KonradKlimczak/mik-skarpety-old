@@ -1,6 +1,4 @@
 "use strict";
-angular.module('mikApp').controller('OfferController', ['$scope', function($scope) {
-    $scope.socks = [{
-        name: 'Skarpety garniturowe' 
-    }];
+angular.module('mikApp').controller('OfferController', ['$scope', 'OfferService', function($scope, OfferService) {
+    $scope.socks = OfferService.getOffer();
 }]);

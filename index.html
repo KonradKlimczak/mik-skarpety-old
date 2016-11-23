@@ -27,18 +27,32 @@
 
   <script type="text/javascript" src="app/main/main.controller.js"></script>
 
+  <script type="text/javascript" src="app/offer/offer.service.js"></script>
   <script type="text/javascript" src="app/offer/offer.controller.js"></script>
 
 </head>
 
 <body>
-  <div layout="column" layout-fill>
+  <div layout="column" layout-fill ng-controller="MainController">
+
+    <ng-include src="'/app/main/views/sidenav.template.html'"></ng-include>
     <md-toolbar class="md-primary md-hue-2" ng-include="'/app/main/views/menu.template.html'">
-
     </md-toolbar>
-    <md-content ui-view>
 
+    <md-content>
+      <ui-view></ui-view>
+      <div flex-offset="5" flex-offset-gt-sm="10" flex="90" flex-gt-sm="80" layout="column">
+        <h2>Dziewiarstwo Maszynowe Mieczysław Klimczak</h2>
+        <p>
+          istnieje na rynku <b>od 1989 roku.</b>
+          <br> Od tego czasu nasze skarpety zdobyły sympatie wielu ludzi z całej Polski, dzięki najwyższej jakości przędzy(bawełny
+          czesanskowej oraz włókna bambusowego) używanej do wyrobu naszych produktów. Szeroki asortyment wzorów i kolorów
+          oraz możliwość wyboru rozmiaru skarpet pozwala nam trafić w gust każdego klienta.
+          <br>
+        </p>
+      </div>
     </md-content>
+
   </div>
 </body>
 
