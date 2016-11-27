@@ -10,6 +10,8 @@ var js_files = [
     'node_modules/angular-aria/angular-aria.min.js',
     'node_modules/angular-messages/angular-messages.min.js',
     'node_modules/angular-material/angular-material.min.js',
+    'node_modules/angular-translate/dist/angular-translate.min.js',
+    'node_modules/angular-translate-loader-static-files/angular-translate-loader-static-files.min.js',
     'app/app.module.js',
     'app/app.config.js',
     'app/app.routes.js',
@@ -17,6 +19,7 @@ var js_files = [
     'app/offer/offer.controller.js',
     'app/offer/offer.service.js'
 ];
+
 var css_files = [
     'node_modules/angular-material/angular-material.min.css'
 ];
@@ -35,8 +38,8 @@ gulp.task('js-fef', function () {
         .pipe(gp_concat('concat.js'))
         .pipe(gulp.dest('dist'))
         .pipe(gp_rename('lib.min.js'))
+        .pipe(gp_uglify())
         .pipe(gulp.dest('dist'));
-        // .pipe(gp_uglify())
 });
 
 gulp.task('css-fef', function () {

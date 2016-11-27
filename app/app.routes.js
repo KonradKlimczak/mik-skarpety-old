@@ -1,7 +1,6 @@
 angular.module('mikApp').config([
-  '$stateProvider', '$locationProvider', '$urlRouterProvider',
-  function($stateProvider, $locationProvider, $urlRouterProvider) {
-    $locationProvider.html5Mode(true);
+  '$stateProvider', 
+  function($stateProvider) {
     $stateProvider
       .state('home', {
         url: '/',
@@ -20,6 +19,5 @@ angular.module('mikApp').config([
         url: '/contact',
         templateUrl: '/app/main/views/contact.template.html'
       });
-    $urlRouterProvider.otherwise('/');
   }
 ]);

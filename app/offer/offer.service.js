@@ -5,7 +5,7 @@ angular.module('mikApp').service('OfferService', function() {
         // This function is going to use $http
         var offer = [{
             id: 1,
-            name: 'Skarpety Garniturowe',
+            name: 'SUIT_SOCK',
             image: '/images/socks/sk1m.jpg',
             sizes: ['38-40', '41-43', '44-46'],
             descriptions: [
