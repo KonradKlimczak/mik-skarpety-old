@@ -1,14 +1,14 @@
 <div layout="column" flex-offset-gt-sm="20" flex-gt-sm="60">
   <div layout="column" layout-gt-sm="row" layout-align="start center" layout-align-gt-sm="space-around none" layout-wrap layout-padding>
     <div>
-      <img src="images/mik.jpg" alt="Skarpety MIK">
+      <img src="images/mik.jpg" alt="{{ 'MIK_SOCK' | translate }}">
     </div>
     <div layout="column">
       <p class="home-title" hide show-gt-sm>
-        Skarpety od A do Z
+        {{ 'SOCK_FROM_A_TO_Z' | translate }}
       </p>
       <md-button class="md-accent md-raised" ui-sref="offer">
-        Zobacz najnowsza oferte
+        {{ 'SEE_NEWEST_OFFER' | translate }}
       </md-button>
     </div>
   </div>
@@ -16,19 +16,19 @@
   <div layout="column" layout-gt-sm="row">
     <md-card class="orange-card">
       <md-card-content>
-        <h2>Dołącz do grona zadowolonych klientów!</h2>
+        <h2>{{ 'JOIN_HAPPY_CUSTEMERS' | translate }}</h2>
       </md-card-content>
       <md-card-actions layout="row" layout-align="end center">
-        <md-button ui-sref="contact">KONTAKT</md-button>
+        <md-button ui-sref="contact">{{ 'CONTACT' | translate }}</md-button>
       </md-card-actions>
     </md-card>
     <md-card class="cyan-card">
       <md-card-content>
-        <h2>od 1989 roku!</h2>
-        <p>Firma Dziewiarstwo Maszynowe Mieczysław Klimczak istnieje na rynku od 1989 roku.</p>
+        <h2>{{ 'FROM_YEAR_1989' | translate }}!</h2>
+        <p>{{ 'COMPANY_DZIEWIARSTWO_MASZYNOWE_MIECZYSLAW_KLIMCZAK_EXIST_FROM_1989' | translate }}.</p>
       </md-card-content>
       <md-card-actions layout="row" layout-align="end center">
-        <md-button ui-sref="about">DOWIEDZ SIĘ WIECEJ</md-button>
+        <md-button ui-sref="about">{{ 'LEARN_MORE' | translate }}</md-button>
       </md-card-actions>
     </md-card>
   </div>

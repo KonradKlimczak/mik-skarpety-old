@@ -18,6 +18,9 @@ angular.module('mikApp').config([
         $locationProvider.html5Mode(true);
         $urlRouterProvider.otherwise('/');
 
+        var availableLanguages = ['pl', 'no'];
+        var lang = $window.navigator.language || $window.navigator.userLanguage;
+
         $translateProvider
             .useStaticFilesLoader({
                 prefix: '/app/translations/',
