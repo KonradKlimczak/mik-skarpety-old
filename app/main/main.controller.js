@@ -3,6 +3,7 @@ angular.module('mikApp').controller('MainController', ['$scope', '$mdSidenav', '
     $scope.toggleLeftMenu = function () {
       $mdSidenav('left').toggle();
     };
+    $translate.use('pl');
     $scope.changeLanguage = function (langKey) {
       $translate.use(langKey);
     };

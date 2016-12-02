@@ -1,1 +1,1 @@
-angular.module('mikApp', ['ngMaterial', 'ui.router', 'pascalprecht.translate']);
+angular.module('mikApp', ['ngMaterial', 'ui.router', 'ngSanitize', 'pascalprecht.translate']);

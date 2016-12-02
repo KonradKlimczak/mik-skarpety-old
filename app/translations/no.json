@@ -1,13 +1,16 @@
 {
-    "ADDRESS": "Adresse",
+    // Menu
+    "Main Page": "Hjem", 
+    
+    "Address": "Adresse",
     "YOUTH_SOCKS": "Ungdom sokker",
     "MIK_SOCK": "Mik Sokker",
     "MAIN_PAGE": "Hjem" ,
     "OFFER": "Tillbud" ,
     "ABOUT_COMPANY": "Om oss" ,
     "CONTACT": "Kontakt oss" ,
-    "SOCK_FROM_A_TO_Z": "Sokker fra A til Æ" ,
-    "SEE_NEWEST_OFFER": "NYE PRODUKTER" ,
+    "Sock from A to Z": "Sokker fra A til Æ" ,
+    "See newest offer": "NYE PRODUKTER" ,
     "JOIN_HAPPY_CUSTEMERS": "Bli medlemm" ,
     "FROM_YEAR_1989": "I drift fra 1989" ,
     "COMPANY_DZIEWIARSTWO_MASZYNOWE_MIECZYSLAW_KLIMCZAK_EXIST_FROM_1989": "Tekstil Selskapet Mieczysław Klimczak er i drift fra 1989." ,

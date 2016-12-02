@@ -1,5 +1,5 @@
 angular.module('mikApp').config([
-    '$mdThemingProvider', '$locationProvider', '$urlRouterProvider', '$translateProvider',
+    '$mdThemingProvider', '$locationProvider', '$urlRouterProvider', '$translateProvider', 
     function ($mdThemingProvider, $locationProvider, $urlRouterProvider, $translateProvider) {
 
         $mdThemingProvider.theme('default')
@@ -18,8 +18,8 @@ angular.module('mikApp').config([
         $locationProvider.html5Mode(true);
         $urlRouterProvider.otherwise('/');
 
-        var availableLanguages = ['pl', 'no'];
-        var lang = $window.navigator.language || $window.navigator.userLanguage;
+        // var availableLanguages = ['pl', 'no'];
+        // var lang = $window.navigator.language || $window.navigator.userLanguage;
 
         $translateProvider
             .useStaticFilesLoader({
