@@ -43,17 +43,18 @@
     <md-toolbar class="md-primary md-hue-2" ng-include="'/app/main/views/menu.template.html'">
     </md-toolbar>
 
-    <md-content>
+    <md-content layout="column" layout-align="space-between stretch" flex="100">
       <div ui-view></div>
-      <div flex-offset="5" flex-offset-gt-sm="10" flex="90" flex-gt-sm="80" layout="column">
-        <h2>Dziewiarstwo Maszynowe Mieczysław Klimczak</h2>
-        <p>
-          istnieje na rynku <b>od 1989 roku.</b>
-          <br> Od tego czasu nasze skarpety zdobyły sympatie wielu ludzi z całej Polski, dzięki najwyższej jakości przędzy(bawełny
-          czesanskowej oraz włókna bambusowego) używanej do wyrobu naszych produktów. Szeroki asortyment wzorów i kolorów
-          oraz możliwość wyboru rozmiaru skarpet pozwala nam trafić w gust każdego klienta.
-          <br>
-        </p>
+
+      <div class="footer">
+        <div flex-offset="5" flex-offset-gt-sm="20" flex-gt-sm="60" flex="90">
+          <p>
+            Oświadczamy, iż w prowadzonej działalności gospodarczej są przestrzegane przepisy prawa, w tym w szczególności Kodeks Pracy
+            oraz akty wykonawcze wydane na jego podstawie. Przy produkcji nie pracują dzieci, lecz osoby dorosłe, a pensje
+            pracowników pozwalają im na godne życie. Gwarantujemy poszanowanie praw pracownika oraz godne warunki pracy.
+            Kupuj świadomie i zapoznaj się z naszą ofertą już dziś.
+          </p>
+        </div>
       </div>
     </md-content>
 
