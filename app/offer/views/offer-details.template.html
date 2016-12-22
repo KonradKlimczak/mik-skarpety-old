@@ -1,0 +1,40 @@
+<div layout="row" flex-offset-gt-sm="10" flex-gt-sm="80">
+    <div layout="column" layout-gt-sm="row" layout-align="start center" layout-align-gt-sm="space-around none" layout-padding
+        flex="100">
+        <div>
+            <img ng-src="{{sock.image}}" width="340" height="600" class="md-card-image" alt="{{sock.name | translate}}">
+        </div>
+        <div layout="column">
+            <h1> {{ sock.name | translate }} </h1>
+            <md-list>
+                <md-list-item class="md-2-line" ng-repeat="description in sock.descriptions">
+                    <md-checkbox></md-checkbox>
+                    <div class="md-list-item-text">
+                        <!--<h3>Title</h3>-->
+                        <p>{{description}}</p>
+                    </div>
+                </md-list-item>
+            </md-list>
+            <div class="mik-sizes" layout="column">
+                <p>Rozmiary</p>
+                <div layout="column">
+                    <div>{{size}}</div ng-repeat="size in sock.sizes">
+                </div>
+            </div>
+            <div class="mik-colors" layout="column">
+                <p>Kolory</p>
+                <div layout="row">
+                    <div class="{{className}}" ng-repeat="(colorName, className) in sock.colors"></div>
+                    <div class="empty-box">?</div>
+                </div>
+            </div>
+            <div>
+                {{ 'Amount in package' | translate }}: <b>{{sock.amount}} par</b>
+            </div>
+            <md-button ui-sref="offer" hide show-gt-sm>
+                {{ 'Go back' | translate }}
+            </md-button>
+
+        </div>
+    </div>
+</div>

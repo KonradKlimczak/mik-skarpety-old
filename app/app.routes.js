@@ -15,6 +15,11 @@ angular.module('mikApp').config([
         templateUrl: '/app/offer/views/offer.template.html',
         controller: 'OfferController'
       })
+      .state('details', {
+        url: "/details/:offerId",
+        templateUrl: '/app/offer/views/offer-details.template.html',
+        controller: 'OfferDetailsController'
+      })
       .state('contact', {
         url: '/contact',
         templateUrl: '/app/main/views/contact.template.html'
