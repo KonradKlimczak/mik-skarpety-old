@@ -1,0 +1,29 @@
+{
+  "socks": [
+    {
+      "id": "m01",
+      "name": "Suit Socks",
+      "categories": [
+        "Men"
+      ],
+      "image": "/images/socks/m01.jpg",
+      "sizes": [
+        "38-40",
+        "41-43",
+        "44-46"
+      ],
+      "colors": {
+        "Black": "black-box",
+        "Bluegray": "blue-gray-box"
+      },
+      "descriptions": [
+        "Socks ideal for a suit and not only.",
+        "Made from high quality combed cotton.",
+        "True comfort and elegance.",
+        "Available in rich colors.",
+        "Flat seam and wide ribbing causing no pinching."
+      ],
+      "amount": 10
+    }
+  ]
+}
