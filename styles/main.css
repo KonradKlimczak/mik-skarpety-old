@@ -5,7 +5,7 @@ md-content {
   background-color: #fff;
 }
 .home-title {
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   line-height: 110%;
   margin: 1.78rem 0 1.424rem 0;
 }
@@ -149,33 +149,6 @@ td, th {
   }
 }
 
-.black-box {
-  margin: 3px;
-  border-radius: 10px;
-  border: 3px solid #B0BEC5;
-  background: #000;
-  width: 20px;
-  height: 20px;
-}
-
-.blue-gray-box {
-  margin: 3px;
-  border-radius: 10px;
-  border: 3px solid #B0BEC5;
-  background: #455A64;
-  width: 20px;
-  height: 20px;
-}
-
-.empty-box {
-  text-align: center;
-  margin: 3px;
-  border-radius: 10px;
-  border: 3px solid #B0BEC5;
-  width: 20px;
-  height: 20px;
-}
-
 .mik-footer-bar {
   font-size: 13px;
   position: absolute;
@@ -185,4 +158,7 @@ td, th {
   overflow: hidden;
   z-index: 2;
   background-color: #fff;
+}
+.menu-item {
+  text-transform: initial;
 }
