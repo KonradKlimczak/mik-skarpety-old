@@ -24,7 +24,11 @@
             <div class="mik-colors" layout="column">
                 <p>Kolory</p>
                 <div layout="row">
-                    <div class="{{className}}" ng-repeat="(colorName, className) in sock.colors"></div>
+                    <div class="{{className}}" ng-repeat="(colorName, className) in sock.colors">
+                        <md-tooltip>
+                        {{colorName}}
+                        </md-tooltip>
+                    </div>
                     <div class="empty-box">?</div>
                 </div>
             </div>
