@@ -40,7 +40,7 @@
       "sizes": [
       ],
       "colors": {
-        "Black": "black-box",
+        "xx": "stripes-red-yellow-orange",
         "Gray": "gray-box",
         "Dark gray": "dark-gray-box",
         "Dark jeans": "dark-jeans-box",

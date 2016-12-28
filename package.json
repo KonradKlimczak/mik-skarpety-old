@@ -4,9 +4,10 @@
   "description": "MIK web page",
   "main": "index.html",
   "scripts": {
-    "development": "lite-server",
+    "development": "concurrently --kill-others \"lite-server\" \"npm run scss\"",
     "build": "gulp",
     "build-app": "gulp build-app",
+    "scss": "node-sass -w scss/ -o css/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,22 +25,24 @@
   },
   "homepage": "https://github.com/KonradKlimczak/mik-skarpety#readme",
   "dependencies": {
-    "angular": "^1.5.8",
-    "angular-animate": "^1.5.8",
-    "angular-aria": "^1.5.8",
-    "angular-i18n": "^1.5.8",
+    "angular": "^1.6.1",
+    "angular-animate": "^1.6.1",
+    "angular-aria": "^1.6.1",
+    "angular-i18n": "^1.6.1",
     "angular-material": "^1.1.1",
-    "angular-messages": "^1.5.8",
-    "angular-sanitize": "^1.5.9",
+    "angular-messages": "^1.6.1",
+    "angular-sanitize": "^1.6.1",
     "angular-translate": "^2.13.0",
     "angular-translate-loader-static-files": "^2.13.0",
     "angular-ui-router": "^0.3.2"
   },
   "devDependencies": {
+    "concurrently": "^3.1.0",
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.1",
     "gulp-rename": "^1.2.2",
     "gulp-uglify": "^2.0.0",
-    "lite-server": "^2.2.2"
+    "lite-server": "^2.2.2",
+    "node-sass": "^4.1.1"
   }
 }

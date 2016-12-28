@@ -1,0 +1,81 @@
+$box-width: 25px;
+$box-height: 25px;
+
+@mixin color-box($color) {
+  margin: 3px;
+  border-radius: 10px;
+  border: 3px solid #B0BEC5;
+  background: $color;
+  width: $box-width;
+  height: $box-height;
+}
+
+.black-box {
+  @include color-box(#000);
+}
+
+.white-box {
+  @include color-box(#fff);
+}
+
+.white-box {
+  @include color-box(#fff);
+}
+
+.gray-box {
+  @include color-box(#DFDFDF);
+}
+
+.dark-gray-box {
+  @include color-box(#AEAEAE);
+}
+
+.dark-jeans-box {
+  @include color-box(#003153);
+}
+
+.jeans-box {
+  @include color-box(#4e6590);
+}
+
+.sea-color-box {
+  @include color-box(#008080);
+}
+
+.bronze-box {
+  @include color-box(#964B00);
+}
+
+.beige-box {
+  @include color-box(#D0A87F);
+}
+
+.graphite-box {
+  @include color-box(#36454F);
+}
+
+.stripes-red-yellow-orange {
+  @include color-box(
+    repeating-linear-gradient(
+      #fff,
+      #fff 5px,
+      #890b20 5px,
+      #890b20 10px,
+      #fff67b 10px,
+      #fff67b 15px,
+      #13322c 15px,
+      #13322c 20px,
+      #fd3422 20px,
+      #fd3422 25px
+    )
+  );
+}
+
+.empty-box {
+  text-align: center;
+  margin: 3px;
+  border-radius: 10px;
+  border: 3px solid #B0BEC5;
+  width: $box-width;
+  height: $box-height;
+}
