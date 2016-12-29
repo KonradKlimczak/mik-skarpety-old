@@ -2,7 +2,7 @@
     <div layout="column" layout-gt-sm="row" layout-align="start center" layout-align-gt-sm="space-around none" layout-padding
         flex="100">
         <div>
-            <img ng-src="{{sock.image}}" width="340" height="600" class="md-card-image" alt="{{sock.name | translate}}">
+            <img ng-src="/images/socks/{{sock.id}}.jpg" width="340" height="600" class="md-card-image" alt="{{sock.name | translate}}">
         </div>
         <div layout="column">
             <h1> {{ sock.name | translate }} </h1>
@@ -29,7 +29,12 @@
                         {{colorName}}
                         </md-tooltip>
                     </div>
-                    <div class="empty-box">?</div>
+                    <div class="empty-box">
+                        ?
+                        <md-tooltip>
+                        {{'More colors available on special order' | translate}}
+                        </md-tooltip>
+                    </div>
                 </div>
             </div>
             <hr>
