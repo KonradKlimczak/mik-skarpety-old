@@ -12,8 +12,6 @@
     "Company Dziewiarstwo Maszynowe Mieczysław Klimczak exists on market since 1989.": "Firma Dziewiarstwo Maszynowe Mieczysław Klimczak istnieje na rynku od 1989 roku.",
     "Learn more": "Dowiedz się wiecej",
 
-    "Amount in package": "Ilość w paczce",
-
     "Suit Socks": "Skarpety Garniturowe",
     "Men Socks": "Skarpety Męskie",
     "Women Socks": "Skarpety Damskie",
@@ -25,6 +23,7 @@
     "Women": "Damskie",
     "Sport": "Sportowe",
 
+    "Amount in package": "Ilość w paczce",
     "Go back": "Wróć",
 
     "Socks ideal for a suit and not only.": "Skarpety idealne do garnituru i nie tylko.",
@@ -36,5 +35,13 @@
     "Made of high quality bamboo yarn.": "Wykonane z wysokiej jakości przędzy bambusowej.",
     "Comfortable to wear.": "Wygodne w noszeniu.",
 
-    "": ""
+    "Black": "Czarny",
+    "Gray": "Szary",
+    "Dark gray": "Stalowy",
+    "Dark jeans": "Granatowy",
+    "Jeans": "Jeans",
+    "Bronze": "Brązowy",
+    "Beige": "Beżowy",
+    "Graphite": "Grafitowy",
+    "White": "Biały"
 }
