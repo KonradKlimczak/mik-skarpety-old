@@ -1,0 +1,10 @@
+$menu-text-color: #fff;
+
+.menu-title {
+  font-size: 2.1rem;
+  color: $menu-text-color;
+}
+.menu-item {
+  text-transform: initial;
+  color: $menu-text-color !important;
+}
