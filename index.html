@@ -49,16 +49,7 @@
     <md-content layout="column" layout-align="space-between stretch" flex="100">
       <div ui-view></div>
 
-      <div class="footer">
-        <div flex-offset="5" flex-offset-gt-sm="20" flex-gt-sm="60" flex="90">
-          <p>
-            Oświadczamy, że przy produkcji naszych skarpet są przestrzegane przepisy prawa, a w szczególności Prawa człowieka.
-            Przy produkcji nie pracują dzieci, ani osoby nieletnie.
-            Produkcja oparta jest na surowcach naturalnych (przędza bawełniana i bambusowa), co minimalizuje negatwywny wpływ na środowisko.
-            Produkt europejski.<br />
-            Wyprodukowane w Polsce.
-          </p>
-        </div>
+      <div class="footer" ng-include="'/app/main/views/footer.template.html'">
       </div>
     </md-content>
 

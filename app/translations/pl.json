@@ -26,6 +26,7 @@
     "Amount in package": "Ilość w paczce",
     "Go back": "Wróć",
 
+    "Perfectly fit suit.": "Perfekcyjnie pasują do garnituru.",
     "Socks ideal for a suit and not only.": "Skarpety idealne do garnituru i nie tylko.",
     "Made from high quality combed cotton.": "Wykonane z wysokiej jakości bawełny czesankowej.",
     "True comfort and elegance.": "Prawdziwa wygoda i elegancja.",
@@ -34,6 +35,8 @@
     "Socks with silver ions.Socks with silver ions.": "Skarpety z jonami srebra.",
     "Made of high quality bamboo yarn.": "Wykonane z wysokiej jakości przędzy bambusowej.",
     "Comfortable to wear.": "Wygodne w noszeniu.",
+    "Flat seam.": "Płaski szew.",
+    "Wide ribbing causing no pinching.": "Szeroki nieuciskający ściągacz.",
 
     "Black": "Czarny",
     "Gray": "Szary",
@@ -43,5 +46,11 @@
     "Bronze": "Brązowy",
     "Beige": "Beżowy",
     "Graphite": "Grafitowy",
-    "White": "Biały"
+    "White": "Biały",
+
+    "We declare thatProdukt europejski. the production of our socks are adhered to the law, in particular human rights.": "Oświadczamy, że przy produkcji naszych skarpet są przestrzegane przepisy prawa, a w szczególności Prawa człowieka.",
+    "No children or minors work in the production.": "Przy produkcji nie pracują dzieci, ani osoby nieletnie.",
+    "The production is based on natural raw materials (cotton yarn and bamboo), which minimizes the negative impact on the environment.": "Produkcja oparta jest na surowcach naturalnych (przędza bawełniana i bambusowa), co minimalizuje negatywny wpływ na środowisko.",
+    "European product.": "Produkt europejski.",
+    "Made in Poland.": "Wyprodukowane w Polsce."
 }
