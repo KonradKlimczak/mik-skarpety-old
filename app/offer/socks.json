@@ -7,6 +7,20 @@
         "Men"
       ],
       "sizes": [
+      ],
+      "colors": {
+      },
+      "descriptions": [
+      ],
+      "amount": "?"
+    },
+    {
+      "id": "m02",
+      "name": "Men Socks",
+      "categories": [
+        "Men"
+      ],
+      "sizes": [
         "38-40",
         "41-43",
         "44-46"
@@ -30,20 +44,6 @@
         "Wide ribbing causing no pinching."
       ],
       "amount": 10
-    },
-    {
-      "id": "m02",
-      "name": "Men Socks",
-      "categories": [
-        "Men"
-      ],
-      "sizes": [
-      ],
-      "colors": {
-      },
-      "descriptions": [
-      ],
-      "amount": "?"
     },
     {
       "id": "m03",
@@ -92,6 +92,428 @@
       "name": "Men Socks",
       "categories": [
         "Men"
+      ],
+      "sizes": [
+      ],
+      "colors": {
+      },
+      "descriptions": [
+      ],
+      "amount": "?"
+    },
+    {
+      "id": "w01",
+      "name": "Women Socks",
+      "categories": [
+        "Women"
+      ],
+      "sizes": [
+      ],
+      "colors": {
+      },
+      "descriptions": [
+      ],
+      "amount": "?"
+    },
+    {
+      "id": "w02",
+      "name": "Women Socks",
+      "categories": [
+        "Women"
+      ],
+      "sizes": [
+      ],
+      "colors": {
+      },
+      "descriptions": [
+      ],
+      "amount": "?"
+    },
+    {
+      "id": "w03",
+      "name": "Women Socks",
+      "categories": [
+        "Women"
+      ],
+      "sizes": [
+      ],
+      "colors": {
+      },
+      "descriptions": [
+      ],
+      "amount": "?"
+    },
+    {
+      "id": "w04",
+      "name": "Women Socks",
+      "categories": [
+        "Women"
+      ],
+      "sizes": [
+      ],
+      "colors": {
+      },
+      "descriptions": [
+      ],
+      "amount": "?"
+    },
+    {
+      "id": "w05",
+      "name": "Women Socks",
+      "categories": [
+        "Women"
+      ],
+      "sizes": [
+      ],
+      "colors": {
+      },
+      "descriptions": [
+      ],
+      "amount": "?"
+    },
+    {
+      "id": "w06",
+      "name": "Women Socks",
+      "categories": [
+        "Women"
+      ],
+      "sizes": [
+      ],
+      "colors": {
+      },
+      "descriptions": [
+      ],
+      "amount": "?"
+    },
+    {
+      "id": "bs01",
+      "name": "Bamboo Short Socks",
+      "categories": [
+        "Bamboo",
+        "Short"
+      ],
+      "sizes": [
+      ],
+      "colors": {
+      },
+      "descriptions": [
+      ],
+      "amount": "?"
+    },
+    {
+      "id": "b01",
+      "name": "Bamboo Socks",
+      "categories": [
+        "Bamboo"
+      ],
+      "sizes": [
+      ],
+      "colors": {
+      },
+      "descriptions": [
+      ],
+      "amount": "?"
+    },
+    {
+      "id": "bf01",
+      "name": "Bamboo Frotte Socks",
+      "categories": [
+        "Bamboo",
+        "Frotte"
+      ],
+      "sizes": [
+      ],
+      "colors": {
+      },
+      "descriptions": [
+      ],
+      "amount": "?"
+    },
+    {
+      "id": "k01",
+      "name": "Short Socks",
+      "categories": [
+        "Short"
+      ],
+      "sizes": [
+      ],
+      "colors": {
+      },
+      "descriptions": [
+      ],
+      "amount": "?"
+    },
+    {
+      "id": "k02",
+      "name": "Short Socks",
+      "categories": [
+        "Short"
+      ],
+      "sizes": [
+      ],
+      "colors": {
+      },
+      "descriptions": [
+      ],
+      "amount": "?"
+    },
+    {
+      "id": "k03",
+      "name": "Short Socks",
+      "categories": [
+        "Short"
+      ],
+      "sizes": [
+      ],
+      "colors": {
+      },
+      "descriptions": [
+      ],
+      "amount": "?"
+    },
+    {
+      "id": "k04",
+      "name": "Short Socks",
+      "categories": [
+        "Short"
+      ],
+      "sizes": [
+      ],
+      "colors": {
+      },
+      "descriptions": [
+      ],
+      "amount": "?"
+    },
+    {
+      "id": "p01",
+      "name": "Very Long Socks",
+      "categories": [
+        "Very Long"
+      ],
+      "sizes": [
+      ],
+      "colors": {
+      },
+      "descriptions": [
+      ],
+      "amount": "?"
+    },
+    {
+      "id": "p02",
+      "name": "Very Long Socks",
+      "categories": [
+        "Very Long"
+      ],
+      "sizes": [
+      ],
+      "colors": {
+      },
+      "descriptions": [
+      ],
+      "amount": "?"
+    },
+    {
+      "id": "p03",
+      "name": "Very Long Socks",
+      "categories": [
+        "Very Long"
+      ],
+      "sizes": [
+      ],
+      "colors": {
+      },
+      "descriptions": [
+      ],
+      "amount": "?"
+    },
+    {
+      "id": "s01",
+      "name": "Sport Socks",
+      "categories": [
+        "Sport"
+      ],
+      "sizes": [
+      ],
+      "colors": {
+      },
+      "descriptions": [
+      ],
+      "amount": "?"
+    },
+    {
+      "id": "s02",
+      "name": "Sport Socks",
+      "categories": [
+        "Sport"
+      ],
+      "sizes": [
+      ],
+      "colors": {
+      },
+      "descriptions": [
+      ],
+      "amount": "?"
+    },
+    {
+      "id": "s03",
+      "name": "Sport Socks",
+      "categories": [
+        "Sport"
+      ],
+      "sizes": [
+      ],
+      "colors": {
+      },
+      "descriptions": [
+      ],
+      "amount": "?"
+    },
+    {
+      "id": "s04",
+      "name": "Sport Socks",
+      "categories": [
+        "Sport"
+      ],
+      "sizes": [
+      ],
+      "colors": {
+      },
+      "descriptions": [
+      ],
+      "amount": "?"
+    },
+    {
+      "id": "s05",
+      "name": "Sport Socks",
+      "categories": [
+        "Sport"
+      ],
+      "sizes": [
+      ],
+      "colors": {
+      },
+      "descriptions": [
+      ],
+      "amount": "?"
+    },
+    {
+      "id": "a01",
+      "name": "Free Socks",
+      "categories": [
+        "Free"
+      ],
+      "sizes": [
+      ],
+      "colors": {
+      },
+      "descriptions": [
+      ],
+      "amount": "?"
+    },
+    {
+      "id": "a02",
+      "name": "Free Socks",
+      "categories": [
+        "Free"
+      ],
+      "sizes": [
+      ],
+      "colors": {
+      },
+      "descriptions": [
+      ],
+      "amount": "?"
+    },
+    {
+      "id": "a03",
+      "name": "Free Socks",
+      "categories": [
+        "Free"
+      ],
+      "sizes": [
+      ],
+      "colors": {
+      },
+      "descriptions": [
+      ],
+      "amount": "?"
+    },
+    {
+      "id": "fh01",
+      "name": "Half-Frotte Socks",
+      "categories": [
+        "Frotte"
+      ],
+      "sizes": [
+      ],
+      "colors": {
+      },
+      "descriptions": [
+      ],
+      "amount": "?"
+    },
+    {
+      "id": "fh02",
+      "name": "Half-Frotte Socks",
+      "categories": [
+        "Frotte"
+      ],
+      "sizes": [
+      ],
+      "colors": {
+      },
+      "descriptions": [
+      ],
+      "amount": "?"
+    },
+    {
+      "id": "fh03",
+      "name": "Half-Frotte Socks",
+      "categories": [
+        "Frotte"
+      ],
+      "sizes": [
+      ],
+      "colors": {
+      },
+      "descriptions": [
+      ],
+      "amount": "?"
+    },
+    {
+      "id": "f01",
+      "name": "Frotte Socks",
+      "categories": [
+        "Frotte"
+      ],
+      "sizes": [
+      ],
+      "colors": {
+      },
+      "descriptions": [
+      ],
+      "amount": "?"
+    },
+    {
+      "id": "f02",
+      "name": "Frotte Socks",
+      "categories": [
+        "Frotte"
+      ],
+      "sizes": [
+      ],
+      "colors": {
+      },
+      "descriptions": [
+      ],
+      "amount": "?"
+    },
+    {
+      "id": "f03",
+      "name": "Frotte Socks",
+      "categories": [
+        "Frotte"
       ],
       "sizes": [
       ],
