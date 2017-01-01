@@ -6,7 +6,6 @@
       "categories": [
         "Men"
       ],
-      "image": "/images/socks/m01.jpg",
       "sizes": [
         "38-40",
         "41-43",
@@ -24,38 +23,13 @@
         "White": "white-box"
       },
       "descriptions": [
+        "Perfectly fit suit.",
         "Made from high quality combed cotton.",
         "True comfort and elegance.",
-        "Flat seam and wide ribbing causing no pinching."
+        "Flat seam.",
+        "Wide ribbing causing no pinching."
       ],
       "amount": 10
-    },
-    {
-      "id": "w01",
-      "name": "Women Socks",
-      "categories": [
-        "Women"
-      ],
-      "image": "/images/socks/w01.jpg",
-      "sizes": [
-      ],
-      "colors": {
-        "xx": "stripes-red-yellow-orange",
-        "Gray": "gray-box",
-        "Dark gray": "dark-gray-box",
-        "Dark jeans": "dark-jeans-box",
-        "Jeans": "jeans-box",
-        "Sea color": "sea-color-box",
-        "Bronze": "bronze-box",
-        "Beige": "beige-box",
-        "Graphite": "graphite-box",
-        "White": "white-box"
-      },
-      "descriptions": [
-        "Made from high quality combed cotton.",
-        "Comfortable to wear."
-      ],
-      "amount": "?"
     },
     {
       "id": "m02",
@@ -63,40 +37,11 @@
       "categories": [
         "Men"
       ],
-      "image": "/images/socks/m02.jpg",
-      "sizes": [
-        "38-40",
-        "41-43",
-        "44-46"
-      ],
-      "colors": {
-        "Black": "black-box",
-        "Bluegray": "blue-gray-box"
-      },
-      "descriptions": [
-        "Socks ideal for a suit and not only.",
-        "Made from high quality combed cotton.",
-        "True comfort and elegance.",
-        "Available in rich colors.",
-        "Flat seam and wide ribbing causing no pinching."
-      ],
-      "amount": 10
-    },
-    {
-      "id": "w02",
-      "name": "Women Socks",
-      "categories": [
-        "Women"
-      ],
-      "image": "/images/socks/w02.jpg",
       "sizes": [
       ],
       "colors": {
-        "Black": "black-box"
       },
       "descriptions": [
-        "Made from high quality combed cotton.",
-        "Comfortable to wear."
       ],
       "amount": "?"
     },
@@ -106,40 +51,11 @@
       "categories": [
         "Men"
       ],
-      "image": "/images/socks/m03.jpg",
-      "sizes": [
-        "38-40",
-        "41-43",
-        "44-46"
-      ],
-      "colors": {
-        "Black": "black-box",
-        "Bluegray": "blue-gray-box"
-      },
-      "descriptions": [
-        "Socks ideal for a suit and not only.",
-        "Made from high quality combed cotton.",
-        "True comfort and elegance.",
-        "Available in rich colors.",
-        "Flat seam and wide ribbing causing no pinching."
-      ],
-      "amount": 10
-    },
-    {
-      "id": "w03",
-      "name": "Women Socks",
-      "categories": [
-        "Women"
-      ],
-      "image": "/images/socks/w03.jpg",
       "sizes": [
       ],
       "colors": {
-        "Black": "black-box"
       },
       "descriptions": [
-        "Made from high quality combed cotton.",
-        "Comfortable to wear."
       ],
       "amount": "?"
     },
@@ -149,150 +65,41 @@
       "categories": [
         "Men"
       ],
-      "image": "/images/socks/m04.jpg",
-      "sizes": [
-        "38-40",
-        "41-43",
-        "44-46"
-      ],
-      "colors": {
-        "Black": "black-box",
-        "Bluegray": "blue-gray-box"
-      },
-      "descriptions": [
-        "Socks ideal for a suit and not only.",
-        "Made from high quality combed cotton.",
-        "True comfort and elegance.",
-        "Available in rich colors.",
-        "Flat seam and wide ribbing causing no pinching."
-      ],
-      "amount": 10
-    },
-    {
-      "id": "w04",
-      "name": "Women Socks",
-      "categories": [
-        "Women"
-      ],
-      "image": "/images/socks/w04.jpg",
       "sizes": [
       ],
       "colors": {
-        "Black": "black-box"
       },
       "descriptions": [
-        "Made from high quality combed cotton.",
-        "Comfortable to wear."
       ],
       "amount": "?"
     },
     {
-      "id": "w05",
-      "name": "Women Socks",
-      "categories": [
-        "Women"
-      ],
-      "image": "/images/socks/w05.jpg",
-      "sizes": [
-      ],
-      "colors": {
-        "Black": "black-box"
-      },
-      "descriptions": [
-        "Made from high quality combed cotton.",
-        "Comfortable to wear."
-      ],
-      "amount": "?"
-    },
-    {
-      "id": "w06",
-      "name": "Women Socks",
-      "categories": [
-        "Women"
-      ],
-      "image": "/images/socks/w06.jpg",
-      "sizes": [
-      ],
-      "colors": {
-        "Black": "black-box"
-      },
-      "descriptions": [
-        "Made from high quality combed cotton.",
-        "Comfortable to wear."
-      ],
-      "amount": "?"
-    },
-    {
-      "id": "m04",
+      "id": "m05",
       "name": "Men Socks",
       "categories": [
         "Men"
       ],
-      "image": "/images/socks/m04.jpg",
       "sizes": [
       ],
       "colors": {
-        "Black": "black-box"
       },
       "descriptions": [
-        "Made from high quality combed cotton.",
-        "Comfortable to wear."
       ],
       "amount": "?"
     },
     {
-      "id": "p01",
-      "name": "_Socks",
+      "id": "m06",
+      "name": "Men Socks",
       "categories": [
-        "Category_7"
+        "Men"
       ],
-      "image": "/images/socks/p01.jpg",
       "sizes": [
       ],
       "colors": {
-        "Black": "black-box"
       },
       "descriptions": [
-        "Made from high quality combed cotton.",
-        "Comfortable to wear."
       ],
-      "amount": "5"
-    },
-    {
-      "id": "p02",
-      "name": "_Socks",
-      "categories": [
-        "Category_7"
-      ],
-      "image": "/images/socks/p02.jpg",
-      "sizes": [
-      ],
-      "colors": {
-        "Black": "black-box"
-      },
-      "descriptions": [
-        "Made from high quality combed cotton.",
-        "Comfortable to wear."
-      ],
-      "amount": "5"
-    },
-    {
-      "id": "p03",
-      "name": "_Socks",
-      "categories": [
-        "Category_7"
-      ],
-      "image": "/images/socks/p03.jpg",
-      "sizes": [
-      ],
-      "colors": {
-        "Black": "black-box"
-      },
-      "descriptions": [
-        "Made from high quality combed cotton.",
-        "Comfortable to wear."
-      ],
-      "amount": "5"
+      "amount": "?"
     }
   ]
 }

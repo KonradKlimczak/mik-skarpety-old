@@ -1,0 +1,10 @@
+"Black": "black-box",
+"Gray": "gray-box",
+"Dark gray": "dark-gray-box", # stal
+"Dark jeans": "dark-jeans-box", # granat
+"Jeans": "jeans-box", # jeans
+"Sea color": "sea-color-box", # morski
+"Bronze": "bronze-box", # brazowy
+"Beige": "beige-box", # beż
+"Graphite": "graphite-box", # grafitowy
+"White": "white-box"
