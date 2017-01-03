@@ -1,9 +1,10 @@
 {
     "env": {
-        "browser": false,
+        "browser": true,
         "commonjs": false,
         "es6": false,
-        "node": true
+        "node": false,
+        "jasmine": true
     },
     "parserOptions": {
         "ecmaFeatures": {
@@ -19,5 +20,8 @@
         "no-unused-vars": "warn",
         "constructor-super": "warn",
         "valid-typeof": "warn"
+    },
+    "globals": {
+        "angular": true
     }
 }
