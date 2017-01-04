@@ -1,31 +1,26 @@
-{
+﻿{
     "Main Page": "Hovedside",
     "Offer": "Tilbud",
     "About company": "Om oss",
     "Contact": "Kontakt",
     "Change language": "Endre språk",
-
     "Sock from A to Z": "Sokker fra A til Å",
     "See newest offer": "Se nyeste tilbud",
     "Join the group of satisfied customers": "Bli med i gruppen av fornøyde kunder",
     "exists since 1989": "I drift siden 1989",
     "Company Dziewiarstwo Maszynowe Mieczysław Klimczak exists on market since 1989.": "Selskapet Dziewiarstwo MASZYNOWE Mieczysław Klimczak eksisterer på markedet siden 1989",
     "Learn more": "Finn ut mer ",
-
     "Suit Socks": "Dress Sokker",
     "Men Socks": "Herresokker",
     "Women Socks": "Damesokker",
     "Van Socks": "Van Sokker",
     "Bamboo Socks": "Bambus Sokker",
     "Category_7": "Halvstrømpe/Lårstrømpe",
-
     "Men": "Menn",
     "Women": "Kvinner",
     "Sport": "Sport",
-
     "Amount in package": "Antall par i pakken",
     "Go back": "Gå tilbake",
-
     "Perfectly fit suit.": "Passer perfekt til dress.",
     "Socks ideal for a suit and not only.": "Sokker ideell til dress og annen bekledning.",
     "Made from high quality combed cotton.": "Laget av høy kvalitet kjemmet bomull.",
@@ -37,7 +32,6 @@
     "Comfortable to wear.": "Behagelig å ha på.",
     "Flat seam.": "Flat søm.",
     "Wide ribbing causing no pinching.": "Brede ribbing forårsaker ingen kniping",
-
     "Black": "Svart",
     "Gray": "Grå",
     "Dark gray": "Mørkegrå",
@@ -47,10 +41,27 @@
     "Beige": "Beige",
     "Graphite": "Grafitt",
     "White": "Hvit",
-
-    "We declare that the production of our socks are adhered to the law, in particular human rights.": "Vi erklærer at produksjonen av sokkene blir etterfulgt loven om særlig menneskerettigheter.",
+    "We declare thatProdukt europejski. the production of our socks are adhered to the law, in particular human rights.": "Vi erklærer at produksjonen av sokkene blir etterfulgt loven om særlig menneskerettigheter.",
     "No children or minors work in the production.": "Ingen barn eller mindreårige arbeider i produksjonen.",
     "The production is based on natural raw materials (cotton yarn and bamboo), which minimizes the negative impact on the environment.": "Produksjonen er basert på naturlige råvarer (bomullsgarn og bambus), noe som minimerer den negative innvirkningen på miljøet.",
     "European product.": "Europeisk produkt.",
-    "Made in Poland.": "Produsert i Polen."
+    "Made in Poland.": "Produsert i Polen.""Address": "Adresse",
+    "Phone number": "Telefonnummer",
+    "E-mail": "E-post""Category": "Kategori",
+    "All": "Alle",
+    "Frotte": "Frotté",
+    "Short": "Ankelsokker",
+    "Bamboo": "Bambus",
+    "Knee": "Halvstrømpe/Lårstrømpe",
+    "Pressure-free": "Pressfri",
+    "Zobacz więcej": "Details",
+    "Wyświetla 36 z 36 dostepnych.": "Displays 36 of 36 available.",
+    "Details": "Detaljer",
+    "Displays 36 of 36 available.": "Viser 36 av 36 tilgjengelige.",
+    "istnieje na rynku od 1989 roku.": "has been on the market since 1989.",
+    "Od tego czasu nasze skarpety zdobyły sympatie wielu ludzi z całej Polski, dzięki najwyższej jakości przędzy(bawełny czesanskowej oraz włókna bambusowego) używanej do wyrobu naszych produktów. Szeroki asortyment wzorów i kolorów oraz możliwość wyboru rozmiaru skarpet pozwala nam trafić w gust każdego klienta.": "Since that time, our socks won the sympathies of many people from all over Polish, thanks to the high quality of yarn (Combed cotton and bamboo fiber) used for the manufacture of our products. Wide range of patterns and colors, and the ability to choose the size of the socks allows us to hit the tastes of each client.",
+    "Korzystamy z nowoczesnych maszyn dziewiarskich produkcji włoskiej, co pozwala nam sprostać współczesnym trendom mody oraz zrealizować każde zamówienie.": "We use modern Italian manufacturing machinery, which allows us to meet today's fashion trends and realize every order.""Oprócz stałej oferty zaprezentowanej poniżej realizujemy również zamówienia specjalne zgodne z indywidualnymi potrzebami klienta. Ilość takiego zamówienia jest za każdym razem uzgadniania z odbiorcą.": "In addition to the permanent offer presented below we also take special orders in line with individual customer needs. The amount of such an order is each time agreed with the customer.",
+    "has been on the market since 1989.": "har vært på markedet siden 1989.",
+    "Since that time, our socks won the sympathies of many people from all over Polish, thanks to the high quality of yarn (combed cotton and bamboo fiber) used for the manufacture of our products. Wide range of patterns and colors, and the ability to choose the size of the socks allows us to hit the tastes of each client.": "Siden den gang, har våre sokker vunnet sympati hos polakker over hele landet, takket være den høye kvalitet av garn (kjemmet bomull og bambus fiber) brukt til produksjon av våre produkter. Stort utvalg av mønstre og farger, mulighet til å velge størrelse på sokkene, gir også oss mulighet til å treffe kundens smak.",
+    "We use modern Italian manufacturing machinery, which allows us to meet today's fashion trends and realize every order.": "Vi bruker moderne italiensk produksjons-utstyr, som gjør oss i stand til å møte dagens trender og realisere en hver bestilling.""In addition to the permanent offer presented below we also take special orders in line with individual customer needs. The amount of such an order is each time agreed with the customer": "I tillegg til det faste tilbudet, tar vi også i mot spesielle bestillinger fra den individuelle kundes behov. Mengden av en slik bestilling, blir hver gang avtalt med kunden."
 }
