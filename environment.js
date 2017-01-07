@@ -8,7 +8,8 @@ var environment = {
       'app/offer/offer.service.js',
       'app/offer/offer.controller.js',
       'app/offer/offer-details.controller.js',
-      'app/offer/offer.controller.js'
+      'app/offer/offer.controller.js',
+      'app/offer/category.filter.js'
     ],
     css: [
       'css/main.css',

@@ -24,7 +24,7 @@ gulp.task('copy-js', function () {
   var rename = require("gulp-rename");
   gulp.src(env.prodJs)
     .pipe(gp_concat('concated'))
-    .pipe(gp_replace("/app/translations/", "/dist/translations/"))
+    .pipe(gp_replace("/app/translations/", "/translations/"))
     .pipe(gp_replace("/app/data/", "/data/"))
     .pipe(gp_replace("/views/", "/"))
     .pipe(gp_replace("/app/", "/templates/"))
