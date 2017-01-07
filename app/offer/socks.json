@@ -2,21 +2,7 @@
   "socks": [
     {
       "id": "m01",
-      "name": "Men Socks",
-      "categories": [
-        "Men"
-      ],
-      "sizes": [
-      ],
-      "colors": {
-      },
-      "descriptions": [
-      ],
-      "amount": "?"
-    },
-    {
-      "id": "m02",
-      "name": "Men Socks",
+      "name": "Skarpety z małym wzorem",
       "categories": [
         "Men"
       ],
@@ -24,6 +10,35 @@
         "38-40",
         "41-43",
         "44-46"
+      ],
+      "colors": [
+        "Białe",
+        "Czarne",
+        "Popiel",
+        "Stal",
+        "Jeans",
+        "Granat",
+        "Grafit",
+        "Beż"
+      ],
+      "descriptions": [
+        "Made from high quality combed cotton.",
+        "Na każdą okazje",
+        "Różne wzory",
+        "Flat seam.",
+        "Wide ribbing causing no pinching."
+      ],
+      "amount": 10
+    },
+    {
+      "id": "m02",
+      "name": "Exclusive",
+      "categories": [
+        "Men"
+      ],
+      "sizes": [
+        "39-41",
+        "42-46"
       ],
       "colors": {
         "Black": "black-box",
@@ -47,17 +62,33 @@
     },
     {
       "id": "m03",
-      "name": "Men Socks",
+      "name": "Skarpety z małym wzorem",
       "categories": [
         "Men"
       ],
       "sizes": [
+        "38-40",
+        "41-43",
+        "44-46"
       ],
-      "colors": {
-      },
+      "colors": [
+        "Białe",
+        "Czarne",
+        "Popiel",
+        "Stal",
+        "Jeans",
+        "Granat",
+        "Grafit",
+        "Beż"
+      ],
       "descriptions": [
+        "Made from high quality combed cotton.",
+        "Na każdą okazje",
+        "Różne wzory",
+        "Flat seam.",
+        "Wide ribbing causing no pinching."
       ],
-      "amount": "?"
+      "amount": 10
     },
     {
       "id": "m04",
@@ -66,12 +97,19 @@
         "Men"
       ],
       "sizes": [
+        "38-40",
+        "41-43",
+        "44-46"
       ],
-      "colors": {
-      },
+      "colors": ["Czarne"],
       "descriptions": [
+        "Made from high quality combed cotton.",
+        "Różne wzory",
+        "Na każdą okazje",
+        "Flat seam.",
+        "Wide ribbing causing no pinching."
       ],
-      "amount": "?"
+      "amount": 10
     },
     {
       "id": "m05",
@@ -80,12 +118,19 @@
         "Men"
       ],
       "sizes": [
+        "38-40",
+        "41-43",
+        "44-46"
       ],
-      "colors": {
-      },
+      "colors": ["Czarne"],
       "descriptions": [
+        "Made from high quality combed cotton.",
+        "Różne wzory",
+        "Na każdą okazje",
+        "Flat seam.",
+        "Wide ribbing causing no pinching."
       ],
-      "amount": "?"
+      "amount": 10
     },
     {
       "id": "m06",
@@ -94,40 +139,64 @@
         "Men"
       ],
       "sizes": [
+        "38-40",
+        "41-43",
+        "44-46"
       ],
-      "colors": {
-      },
+      "colors": ["Czarne"],
       "descriptions": [
+        "Made from high quality combed cotton.",
+        "Różne wzory",
+        "Na każdą okazje",
+        "Flat seam.",
+        "Wide ribbing causing no pinching."
       ],
-      "amount": "?"
+      "amount": 10
     },
     {
       "id": "w01",
       "name": "Women Socks",
       "categories": [
-        "Women"
+        "Women",
+        "Młodzieżowe"
       ],
       "sizes": [
+        "35-37",
+        "38-40",
+        "41-43"
       ],
-      "colors": {
-      },
+      "colors": [
+        "DOPISZ"
+      ],
       "descriptions": [
+        "Made from high quality combed cotton.",
+        "Flat seam.",
+        "Na każdą okazje",
+        "Dla każdej dziewczyny i kobiety"
       ],
-      "amount": "?"
+      "amount": 10
     },
     {
       "id": "w02",
       "name": "Women Socks",
       "categories": [
-        "Women"
+        "Women",
+        "Młodzieżowe"
       ],
       "sizes": [
+        "35-37",
+        "38-40",
+        "41-43"
       ],
-      "colors": {
-      },
+      "colors": [
+        "Różnorodne kolory"
+      ],
       "descriptions": [
+        "Made from high quality combed cotton.",
+        "Flat seam.",
+        "Na każdą okazje"
       ],
-      "amount": "?"
+      "amount": 10
     },
     {
       "id": "w03",
@@ -136,54 +205,85 @@
         "Women"
       ],
       "sizes": [
+        "35-37",
+        "38-40",
+        "41-43"
       ],
-      "colors": {
-      },
+      "colors": [
+        "Różnorodne kolory"
+      ],
       "descriptions": [
+        "Made from high quality combed cotton.",
+        "Flat seam.",
+        "Na każdą okazje"
       ],
-      "amount": "?"
+      "amount": 10
     },
     {
       "id": "w04",
       "name": "Women Socks",
       "categories": [
-        "Women"
+        "Women",
+        "Młodzieżowe"
       ],
       "sizes": [
+        "35-37",
+        "38-40",
+        "41-43"
       ],
-      "colors": {
-      },
+      "colors": [
+        "Różnorodne kolory"
+      ],
       "descriptions": [
+        "Made from high quality combed cotton.",
+        "Flat seam.",
+        "Na każdą okazje"
       ],
-      "amount": "?"
+      "amount": 10
     },
     {
       "id": "w05",
       "name": "Women Socks",
       "categories": [
-        "Women"
+        "Women",
+        "Młodzieżowe"
       ],
       "sizes": [
+        "35-37",
+        "38-40",
+        "41-43"
       ],
-      "colors": {
-      },
+      "colors": [
+        "Różnorodne kolory"
+      ],
       "descriptions": [
+        "Made from high quality combed cotton.",
+        "Flat seam.",
+        "Na każdą okazje",
+        "Dodatkowy ściągacz na śródstopiu zapewnia dodatkową stabilizacje skarpety."
       ],
-      "amount": "?"
+      "amount": 10
     },
     {
       "id": "w06",
       "name": "Women Socks",
       "categories": [
-        "Women"
+        "Women",
+        "Młodzieżowe"
       ],
       "sizes": [
+        "35-37",
+        "38-40",
+        "41-43"
       ],
-      "colors": {
-      },
+      "colors": [
+        "Różnorodne kolory"
+      ],
       "descriptions": [
+        "Made from high quality combed cotton.",
+        "Flat seam."
       ],
-      "amount": "?"
+      "amount": 10
     },
     {
       "id": "bs01",
@@ -193,12 +293,26 @@
         "Short"
       ],
       "sizes": [
+        "35-37",
+        "38-40",
+        "41-43",
+        "44-46"
       ],
-      "colors": {
-      },
+      "colors": [
+        "Białe",
+        "Czarne",
+        "Popiel",
+        "Beż",
+        "Grafit",
+        "Granat",
+        "Stal"
+      ],
       "descriptions": [
+        "Flat seam.",
+        "Wykonane z wysokiej jakości przędzy bambusowej.",
+        "Dzięki dodatkowi jonów srebra wykazują się zwiększonymi właściwościami antypotnymi i przeciwbakteryjnymi."
       ],
-      "amount": "?"
+      "amount": 10
     },
     {
       "id": "b01",
@@ -207,12 +321,26 @@
         "Bamboo"
       ],
       "sizes": [
+        "38-40",
+        "41-43",
+        "44-46"
       ],
-      "colors": {
-      },
+      "colors": [
+        "Białe",
+        "Czarne",
+        "Popiel",
+        "Beż",
+        "Grafit",
+        "Granat",
+        "Stal"
+      ],
       "descriptions": [
+        "Flat seam.",
+        "Wykonane z wysokiej jakości przędzy bambusowej.",
+        "Dzięki dodatkowi jonów srebra wykazują się zwiększonymi właściwościami antypotnymi i przeciwbakteryjnymi.",
+        "Wide ribbing causing no pinching."
       ],
-      "amount": "?"
+      "amount": 10
     },
     {
       "id": "bf01",
@@ -222,12 +350,26 @@
         "Frotte"
       ],
       "sizes": [
+        "38-40",
+        "41-43",
+        "44-46"
       ],
-      "colors": {
-      },
+      "colors": [
+        "Białe",
+        "Czarne",
+        "Popiel",
+        "Beż",
+        "Grafit",
+        "Granat",
+        "Stal"
+      ],
       "descriptions": [
+        "Flat seam.",
+        "Wykonane z wysokiej jakości przędzy bambusowej.",
+        "Dzięki dodatkowi jonów srebra wykazują się zwiększonymi właściwościami antypotnymi i przeciwbakteryjnymi.",
+        "Wide ribbing causing no pinching."
       ],
-      "amount": "?"
+      "amount": 5
     },
     {
       "id": "k01",
@@ -236,12 +378,16 @@
         "Short"
       ],
       "sizes": [
+        "35-37",
+        "38-40",
+        "41-43",
+        "44-46"
       ],
       "colors": {
       },
       "descriptions": [
       ],
-      "amount": "?"
+      "amount": 10
     },
     {
       "id": "k02",
@@ -250,12 +396,18 @@
         "Short"
       ],
       "sizes": [
+        "35-37",
+        "38-40",
+        "41-43",
+        "44-46"
       ],
-      "colors": {
-      },
+      "colors": [
+        "Różnorodne kolory"
+      ],
       "descriptions": [
+        "Flat seam."
       ],
-      "amount": "?"
+      "amount": 10
     },
     {
       "id": "k03",
@@ -264,12 +416,18 @@
         "Short"
       ],
       "sizes": [
+        "35-37",
+        "38-40",
+        "41-43",
+        "44-46"
       ],
-      "colors": {
-      },
+      "colors": [
+        "Różnorodne kolory"
+      ],
       "descriptions": [
+        "Flat seam."
       ],
-      "amount": "?"
+      "amount": 10
     },
     {
       "id": "k04",
@@ -278,54 +436,104 @@
         "Short"
       ],
       "sizes": [
+        "35-37",
+        "38-40",
+        "41-43",
+        "44-46"
       ],
-      "colors": {
-      },
+      "colors": [
+        "Białe",
+        "Czarne",
+        "Granat",
+        "Jeans",
+        "Grafit",
+        "Popiel",
+        "Beż",
+        "Oliwka",
+        "Stal",
+        "Róż",
+        "Błenkit",
+        "Seledyn",
+        "Wrzos",
+        "Łosoś"
+      ],
       "descriptions": [
+        "Flat seam."
       ],
-      "amount": "?"
+      "amount": 10
     },
     {
       "id": "p01",
-      "name": "Very Long Socks",
+      "name": "Knee Socks",
       "categories": [
-        "Very Long"
+        "Knee"
       ],
       "sizes": [
+        "35-37",
+        "38-40",
+        "41-43"
       ],
-      "colors": {
-      },
+      "colors": ["Czarne"],
       "descriptions": [
+        "Flat seam.",
+        "Wide ribbing causing no pinching.",
+        "Różne wzory"
       ],
-      "amount": "?"
+      "amount": 5
     },
     {
       "id": "p02",
-      "name": "Very Long Socks",
+      "name": "Knee Socks",
       "categories": [
-        "Very Long"
+        "Knee"
       ],
       "sizes": [
+        "35-37",
+        "38-40",
+        "41-43",
+        "44-46"
       ],
-      "colors": {
-      },
+      "colors": [
+        "Czarne",
+        "Białe",
+        "Popiel",
+        "Beż",
+        "Grafit",
+        "Stal",
+        "Jeans"
+      ],
       "descriptions": [
+        "Flat seam.",
+        "Wide ribbing causing no pinching."
       ],
-      "amount": "?"
+      "amount": 5
     },
     {
       "id": "p03",
-      "name": "Very Long Socks",
+      "name": "Knee Socks",
       "categories": [
-        "Very Long"
+        "Knee"
       ],
       "sizes": [
+        "35-37",
+        "38-40",
+        "41-43",
+        "44-46"
       ],
-      "colors": {
-      },
+      "colors": [
+        "Czarne",
+        "Białe",
+        "Popiel",
+        "Beż",
+        "Grafit",
+        "Stal",
+        "Jeans"
+      ],
       "descriptions": [
+        "Flat seam.",
+        "Wide ribbing causing no pinching."
       ],
-      "amount": "?"
+      "amount": 5
     },
     {
       "id": "s01",
@@ -334,12 +542,17 @@
         "Sport"
       ],
       "sizes": [
+        "38-40",
+        "41-43",
+        "44-46"
       ],
-      "colors": {
-      },
+      "colors": ["Różnorodne kolory"],
       "descriptions": [
+        "Długi sportowy ściągacz",
+        "Flat seam.",
+        "Różne wzory"
       ],
-      "amount": "?"
+      "amount": 10
     },
     {
       "id": "s02",
@@ -348,12 +561,17 @@
         "Sport"
       ],
       "sizes": [
+        "38-40",
+        "41-43",
+        "44-46"
       ],
-      "colors": {
-      },
+      "colors": ["Różnorodne kolory"],
       "descriptions": [
+        "Długi sportowy ściągacz",
+        "Flat seam.",
+        "Różne wzory"
       ],
-      "amount": "?"
+      "amount": 10
     },
     {
       "id": "s03",
@@ -376,12 +594,17 @@
         "Sport"
       ],
       "sizes": [
+        "35-37",
+        "38-40",
+        "41-43",
+        "44-46"
       ],
-      "colors": {
-      },
+      "colors": ["Różnorodne kolory"],
       "descriptions": [
+        "Skarpeta 3/4",
+        "Flat seam."
       ],
-      "amount": "?"
+      "amount": 10
     },
     {
       "id": "s05",
@@ -390,18 +613,22 @@
         "Sport"
       ],
       "sizes": [
+        "35-37",
+        "38-40",
+        "41-43",
+        "44-46"
       ],
-      "colors": {
-      },
+      "colors": ["Różnorodne kolory"],
       "descriptions": [
+        "Flat seam."
       ],
-      "amount": "?"
+      "amount": 10
     },
     {
       "id": "a01",
       "name": "Free Socks",
       "categories": [
-        "Free"
+        "Pressure-free"
       ],
       "sizes": [
       ],
@@ -415,29 +642,56 @@
       "id": "a02",
       "name": "Free Socks",
       "categories": [
-        "Free"
+        "Pressure-free"
       ],
       "sizes": [
+        "38-40",
+        "41-43",
+        "44-46"
       ],
-      "colors": {
-      },
+      "colors": [
+        "Czarne",
+        "Białe",
+        "Popiel",
+        "Stal",
+        "Beż",
+        "Granat",
+        "Jeans",
+        "Grafit"
+      ],
       "descriptions": [
+        "Flat seam.",
+        "Nie ma gumki w ściągaczu, dlatego bezuciskowa bez gumki."
       ],
-      "amount": "?"
+      "amount": 10
     },
     {
       "id": "a03",
       "name": "Free Socks",
       "categories": [
-        "Free"
+        "Pressure-free",
+        "Frotte"
       ],
       "sizes": [
+        "38-40",
+        "41-43",
+        "44-46"
       ],
-      "colors": {
-      },
+      "colors": [
+        "Białe",
+        "Popiel",
+        "Czarne",
+        "Stal",
+        "Beż",
+        "Jeans",
+        "Granat",
+        "Grafit"
+      ],
       "descriptions": [
+        "Flat seam.",
+        "Bezuciskowe"
       ],
-      "amount": "?"
+      "amount": 5
     },
     {
       "id": "fh01",
@@ -446,12 +700,15 @@
         "Frotte"
       ],
       "sizes": [
+        "38-40",
+        "41-43",
+        "44-46"
       ],
-      "colors": {
-      },
+      "colors": ["Różnorodne kolory"],
       "descriptions": [
+        "Flat seam."
       ],
-      "amount": "?"
+      "amount": 5
     },
     {
       "id": "fh02",
@@ -460,12 +717,18 @@
         "Frotte"
       ],
       "sizes": [
+        "35-37",
+        "38-40",
+        "41-43"
       ],
-      "colors": {
-      },
+      "colors": [
+        "Różnorodne kolory"
+      ],
       "descriptions": [
+        "Skarpeta 3/4",
+        "Flat seam."
       ],
-      "amount": "?"
+      "amount": 5
     },
     {
       "id": "fh03",
@@ -474,12 +737,16 @@
         "Frotte"
       ],
       "sizes": [
+        "35-37",
+        "38-40",
+        "41-43"
       ],
-      "colors": {
-      },
+      "colors": [
+        "Różnorodne kolory"
+      ],
       "descriptions": [
       ],
-      "amount": "?"
+      "amount": 5
     },
     {
       "id": "f01",
@@ -488,12 +755,18 @@
         "Frotte"
       ],
       "sizes": [
+        "35-37",
+        "38-40",
+        "41-43"
       ],
-      "colors": {
-      },
+      "colors": [
+        "Różnorodne kolory"
+      ],
       "descriptions": [
+        "Flat seam.",
+        ""
       ],
-      "amount": "?"
+      "amount": 5
     },
     {
       "id": "f02",
@@ -507,7 +780,7 @@
       },
       "descriptions": [
       ],
-      "amount": "?"
+      "amount": 5
     },
     {
       "id": "f03",
@@ -516,12 +789,18 @@
         "Frotte"
       ],
       "sizes": [
+        "38-40",
+        "41-43",
+        "44-46"
       ],
-      "colors": {
-      },
+      "colors": [
+        "Różnorodne kolory"
+      ],
       "descriptions": [
+        "Długi sportowy ściągacz",
+        "Flat seam."
       ],
-      "amount": "?"
+      "amount": 5
     }
   ]
 }

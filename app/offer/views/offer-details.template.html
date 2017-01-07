@@ -6,6 +6,7 @@
         </div>
         <div layout="column">
             <h1> {{ sock.name | translate }} </h1>
+            <h3>ID: {{sock.id}}</h3>
             <md-list>
                 <md-list-item class="md-2-line" ng-repeat="description in sock.descriptions">
                     <md-checkbox></md-checkbox>

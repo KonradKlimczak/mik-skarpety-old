@@ -11,9 +11,6 @@ angular.module('mikApp').service('OfferService', ['$http', '$mdDialog',
 
     function getCategories() {
       return [{
-        "name": "All",
-        "value": true
-      }, {
         "name": "Men",
         "value": true
       }, {
@@ -26,13 +23,16 @@ angular.module('mikApp').service('OfferService', ['$http', '$mdDialog',
         "name": "Frotte",
         "value": true
       }, {
-        "name": "Stopki",
+        "name": "Short",
         "value": true
       }, {
-        "name": "Bambusowe",
+        "name": "Bamboo",
         "value": true
       }, {
-        "name": "Category_7",
+        "name": "Knee",
+        "value": true
+      }, {
+        "name": "Pressure-free",
         "value": true
       }];
     }
