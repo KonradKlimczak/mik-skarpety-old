@@ -1,14 +1,14 @@
 <md-sidenav md-component-id="left" class="md-sidenav-left" layout="column">
   <md-button ui-sref="home" ng-click="toggleLeftMenu()">
-    Strona główna
+    {{ 'Main Page' | translate }}
   </md-button>
   <md-button ui-sref="offer" ng-click="toggleLeftMenu()">
-    Oferta
+    {{ 'Offer' | translate }}
   </md-button>
   <md-button ui-sref="about" ng-click="toggleLeftMenu()">
-    O firmie
+    {{ 'About company' | translate }}
   </md-button>
   <md-button ui-sref="contact" ng-click="toggleLeftMenu()">
-    Kontakt
+    {{ 'Contact' | translate }}
   </md-button>
 </md-sidenav>

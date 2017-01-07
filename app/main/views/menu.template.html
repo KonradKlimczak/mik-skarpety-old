@@ -19,9 +19,16 @@
       <md-button ui-sref="contact" hide show-gt-sm class="menu-item">
         {{ 'Contact' | translate }}
       </md-button>
-      <!--<md-button ng-click="changeLanguage()">
-        {{ 'Change language' | translate }}
-      </md-button>-->
+      <md-menu>
+        <md-button ng-click="$mdOpenMenu($event)" aria-label="Choose language">
+          {{ language | uppercase }}
+        </md-button>
+        <md-menu-content>
+          <md-menu-item ng-repeat="lang in supportedLanguages">
+            <md-button ng-click="changeLanguage(lang)">{{ lang | uppercase }}</md-button>
+          </md-menu-item>
+        </md-menu-content>
+      </md-menu>
     </div>
   </div>
 </div>
