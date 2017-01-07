@@ -39,12 +39,12 @@ gulp.task('copy-css', function () {
         .pipe(gulp.dest('dist'));
 });
 
-gulp.task('copy-date', function () {
+gulp.task('copy-data', function () {
   return gulp.src("app/**/*.dat")
-    .pipe(gulp.dest('dist/date/'))
+    .pipe(gulp.dest('dist/data/'))
 });
 
 
-gulp.task('build-app', ['copy-templates', 'copy-js', 'copy-css', 'copy-translations', 'copy-date'], function () { });
+gulp.task('build-app', ['copy-templates', 'copy-js', 'copy-css', 'copy-translations', 'copy-data'], function () { });
 
 gulp.task('default', function () { });
