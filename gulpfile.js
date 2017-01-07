@@ -51,6 +51,6 @@ gulp.task('copy-images', function () {
 });
 
 
-gulp.task('build-app', ['copy-templates', 'copy-js', 'copy-css', 'copy-translations', 'copy-date', 'copy-images'], function () { });
+gulp.task('build-app', ['copy-templates', 'copy-js', 'copy-css', 'copy-translations', 'copy-data', 'copy-images'], function () { });
 
 gulp.task('default', function () { });
