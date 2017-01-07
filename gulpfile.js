@@ -22,7 +22,7 @@ gulp.task('copy-templates', function () {
 
 gulp.task('copy-js', function () {
   var rename = require("gulp-rename");
-  gulp.src("app/**/*.js")
+  gulp.src(env.prodJs)
     .pipe(gp_concat('concated'))
     .pipe(gp_replace("/app/translations/", "/dist/translations/"))
     .pipe(gp_replace("/app/data/", "/data/"))
@@ -45,6 +45,12 @@ gulp.task('copy-date', function () {
 });
 
 
-gulp.task('build-app', ['copy-templates', 'copy-js', 'copy-css', 'copy-translations', 'copy-date'], function () { });
+gulp.task('copy-images', function () {
+  return gulp.src("images/**/*.jpg")
+    .pipe(gulp.dest('dist/images/'))
+});
+
+
+gulp.task('build-app', ['copy-templates', 'copy-js', 'copy-css', 'copy-translations', 'copy-date', 'copy-images'], function () { });
 
 gulp.task('default', function () { });
