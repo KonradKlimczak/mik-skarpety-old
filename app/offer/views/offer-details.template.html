@@ -17,13 +17,13 @@
                 </md-list-item>
             </md-list>
             <div class="mik-sizes" layout="column">
-                <p>Rozmiary</p>
+                <p>{{'Sizes' | translate}}</p>
                 <div layout="column">
                     <div ng-repeat="size in sock.sizes">{{size}}</div>
                 </div>
             </div>
             <div class="mik-colors" layout="column">
-                <p>Kolory</p>
+                <p>{{'Colors' | translate}}</p>
                 <div layout="row">
                     <div class="{{className}}" ng-repeat="(colorName, className) in sock.colors">
                         <md-tooltip>

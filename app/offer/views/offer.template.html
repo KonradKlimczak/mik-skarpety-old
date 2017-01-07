@@ -2,7 +2,7 @@
     <div layout="column">
         <div layout="row" layout-align="start center" layout-margin layout-wrap>
             <div>
-                <p>Kategorie:</p>
+                <p>{{ 'Categories' | translate }}:</p>
             </div>
             <md-checkbox ng-model="showAll" ng-change="toggleCategories($event)">
                 {{ 'All' | translate }}
@@ -25,25 +25,13 @@
                         </md-card-title-text>
                     </md-card-title>
                     <md-card-actions layout="row" layout-align="end center">
-                        <md-button>Zobacz więcej</md-button>
+                        <md-button>{{ 'See more' | translate }}</md-button>
                     </md-card-actions>
                 </md-card>
             </div>
         </div>
         <div>
-            Wyświetla {{filtered.length}} z {{socks.length}} dostepnych.
+            {{'Show' | translate}} {{filtered.length}} {{'from' | translate}} {{socks.length}} {{'available' | translate}}.
         </div>
     </div>
 </div>
-<md-dialog aria-label="List dialog">
-  <md-dialog-content>
-    <md-list>
-      <md-list-item ng-repeat="item in items">
-        <p>Number {{item}}</p>
-      </md-list-item>
-    </md-list>
-  </md-dialog-content>
-  <md-dialog-actions>
-    <md-button ng-click="closeDialog()" class="md-primary">Close Dialog</md-button>
-  </md-dialog-actions>
-</md-dialog>
