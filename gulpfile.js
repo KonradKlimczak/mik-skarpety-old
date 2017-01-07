@@ -6,9 +6,21 @@ var gulp = require('gulp'),
     gp_clean = require('gulp-clean'),
     env = require('./environment');
 
+gulp.task('copy-templates', function () {
+  var rename = require("gulp-rename");
+  gulp.src("app/**/*.html")
+    .pipe(rename(function(path){
+      path.dirname = path.dirname.replace("\\views", "");
+    }))
+    .pipe(gulp.dest('dist/template/'))
+});
+
+
 gulp.task('templates-fef', function () {
     var regex = new RegExp("\/app\/(\w)\/views\/g"),
         filesToReplace = env.appJs.concat(env.template);
+    console.log(filesToReplace);
+    console.log(env.template);
     for (var i = 0; i < filesToReplace.length; i += 1) {
         gulp.src(filesToReplace[i])
             .pipe(gp_replace(regex, '/dist/$1/'))
