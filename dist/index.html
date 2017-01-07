@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html ng-app="mikApp" ng-strict-di>
+
+<head>
+  <base href="/">
+  <title>Skarpety MIK</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Roboto:400,500,700,400italic'>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="lib.min.css">
+
+  <script type="text/javascript" src="lib.min.js"></script>
+
+</head>
+
+<body>
+  <div layout="column" layout-fill ng-controller="MainController">
+
+    <ng-include src="'/templates/main/sidenav.template.html'"></ng-include>
+    <md-toolbar class="md-primary md-hue-2" ng-include="'/templates/main/menu.template.html'">
+    </md-toolbar>
+
+    <md-content layout="column" layout-align="space-between stretch" flex="100">
+      <div ui-view></div>
+
+      <div class="footer" ng-include="'/templates/main/footer.template.html'">
+      </div>
+    </md-content>
+
+  </div>
+</body>
+
+</html>

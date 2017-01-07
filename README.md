@@ -7,3 +7,11 @@
 ## Development
 
  - Start development with command `npm run development`
+
+## Build
+
+ - To build application for production run `npm run build`
+
+## Production
+
+ - Run application in production environment with command `npm run production`

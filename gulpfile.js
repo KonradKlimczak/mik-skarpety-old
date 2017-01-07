@@ -25,9 +25,9 @@ gulp.task('copy-js', function () {
   gulp.src("app/**/*.js")
     .pipe(gp_concat('concated'))
     .pipe(gp_replace("/app/translations/", "/dist/translations/"))
-    .pipe(gp_replace("/app/data/", "/dist/data/"))
+    .pipe(gp_replace("/app/data/", "/data/"))
     .pipe(gp_replace("/views/", "/"))
-    .pipe(gp_replace("/app/", "/dist/templates/"))
+    .pipe(gp_replace("/app/", "/templates/"))
     .pipe(gp_rename('lib.min.js'))
     .pipe(gp_uglify())
     .pipe(gulp.dest('dist'));
@@ -41,7 +41,7 @@ gulp.task('copy-css', function () {
 
 gulp.task('copy-date', function () {
   return gulp.src("app/**/*.dat")
-    .pipe(gulp.dest('dist/date/'))
+    .pipe(gulp.dest('dist/'))
 });
 
 
