@@ -7,7 +7,7 @@ var gulp = require('gulp'),
     env = require('./environment');
 
 gulp.task('copy-translations', function () {
-  gulp.src("app/translations/**/*.json")
+  return gulp.src("app/translations/**/*.json")
     .pipe(gulp.dest('dist/translations/'))
 });
 
@@ -25,6 +25,7 @@ gulp.task('copy-js', function () {
   gulp.src("app/**/*.js")
     .pipe(gp_concat('concated'))
     .pipe(gp_replace("/app/translations/", "/dist/translations/"))
+    .pipe(gp_replace("/app/data/", "/dist/data/"))
     .pipe(gp_replace("/views/", "/"))
     .pipe(gp_replace("/app/", "/dist/templates/"))
     .pipe(gp_rename('lib.min.js'))
@@ -38,6 +39,12 @@ gulp.task('copy-css', function () {
         .pipe(gulp.dest('dist'));
 });
 
-gulp.task('build-app', ['copy-templates', 'copy-js', 'copy-css', 'copy-translations'], function () { });
+gulp.task('copy-date', function () {
+  return gulp.src("app/**/*.dat")
+    .pipe(gulp.dest('dist/date/'))
+});
+
+
+gulp.task('build-app', ['copy-templates', 'copy-js', 'copy-css', 'copy-translations', 'copy-date'], function () { });
 
 gulp.task('default', function () { });

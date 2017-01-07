@@ -6,7 +6,7 @@ angular.module('mikApp').service('OfferService', ['$http', '$mdDialog',
     this.showErrorDialog = showErrorDialog;
 
     function getOffer() {
-      return $http.get('/app/offer/socks.json');
+      return $http.get('/app/data/socks.dat');
     }
 
     function getCategories() {
