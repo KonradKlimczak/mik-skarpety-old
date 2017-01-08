@@ -39,17 +39,17 @@
         "39-41",
         "42-46"
       ],
-      "colors": {
-        "Black": "black-box",
-        "Gray": "gray-box",
-        "Dark gray": "dark-gray-box",
-        "Dark jeans": "dark-jeans-box",
-        "Jeans": "jeans-box",
-        "Bronze": "bronze-box",
-        "Beige": "beige-box",
-        "Graphite": "graphite-box",
-        "White": "white-box"
-      },
+      "colors": [
+        "White",
+        "Black",
+        "Ashen",
+        "Steel",
+        "Bronze",
+        "Jeans",
+        "Navy blue",
+        "Graphite",
+        "Beige"
+      ],
       "descriptions": [
         "Perfectly fit suit.",
         "Made from high quality combed cotton.",

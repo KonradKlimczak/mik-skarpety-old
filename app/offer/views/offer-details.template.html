@@ -25,11 +25,8 @@
             <div class="mik-colors" layout="column">
                 <p>{{'Colors' | translate}}</p>
                 <div layout="row">
-                    <div class="{{className}}" ng-repeat="(colorName, className) in sock.colors">
-                        <md-tooltip>
-                        {{colorName | translate}}
-                        </md-tooltip>
-                    </div>
+                    <color-box color="colorName" ng-repeat="colorName in sock.colors">
+                    </color-box>
                     <div class="empty-box">
                         ?
                         <md-tooltip>

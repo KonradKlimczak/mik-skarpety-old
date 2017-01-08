@@ -8,7 +8,7 @@ var environment = {
       'app/offer/offer.service.js',
       'app/offer/offer.controller.js',
       'app/offer/offer-details.controller.js',
-      'app/offer/offer.controller.js',
+      'app/offer/color-box.directive.js',
       'app/offer/category.filter.js'
     ],
     css: [
@@ -25,7 +25,8 @@ var environment = {
       '/app/main/views/menu.template.html',
       '/app/main/views/sidenav.template.html',
       '/app/offer/views/offer.template.html',
-      '/app/offer/views/offer-details.template.html'
+      '/app/offer/views/offer-details.template.html',
+      '/app/offer/views/color-box.template.html'
     ]
   },
   dependency: {

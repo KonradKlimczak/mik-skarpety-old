@@ -18,19 +18,15 @@ $box-height: 25px;
   @include color-box(#fff);
 }
 
-.white-box {
-  @include color-box(#fff);
-}
-
-.gray-box {
+.ashen-box {
   @include color-box(#DFDFDF);
 }
 
-.dark-gray-box {
+.steel-box {
   @include color-box(#AEAEAE);
 }
 
-.dark-jeans-box {
+.navy-blue-box {
   @include color-box(#003153);
 }
 
