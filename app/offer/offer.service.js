@@ -1,5 +1,33 @@
 angular.module('mikApp').service('OfferService', ['$http', '$mdDialog',
   function ($http, $mdDialog) {
+    var categories = [{
+      "name": "All",
+      "value": true
+    }, {
+      "name": "Men",
+      "value": true
+    }, {
+      "name": "Women",
+      "value": true
+    }, {
+      "name": "Sport",
+      "value": true
+    }, {
+      "name": "Frotte",
+      "value": true
+    }, {
+      "name": "Short",
+      "value": true
+    }, {
+      "name": "Bamboo",
+      "value": true
+    }, {
+      "name": "Knee",
+      "value": true
+    }, {
+      "name": "Pressure-free",
+      "value": true
+    }];
     this.getOffer = getOffer;
     this.getOfferById = getOfferById;
     this.getCategories = getCategories;
@@ -10,31 +38,7 @@ angular.module('mikApp').service('OfferService', ['$http', '$mdDialog',
     }
 
     function getCategories() {
-      return [{
-        "name": "Men",
-        "value": true
-      }, {
-        "name": "Women",
-        "value": true
-      }, {
-        "name": "Sport",
-        "value": true
-      }, {
-        "name": "Frotte",
-        "value": true
-      }, {
-        "name": "Short",
-        "value": true
-      }, {
-        "name": "Bamboo",
-        "value": true
-      }, {
-        "name": "Knee",
-        "value": true
-      }, {
-        "name": "Pressure-free",
-        "value": true
-      }];
+      return categories;
     }
 
     function getOfferById(sockId) {

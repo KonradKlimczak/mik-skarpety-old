@@ -18,9 +18,12 @@ angular.module('mikApp').controller('OfferController', [
         });
       });
     }
-    function toggleCategories() {
+    function toggleCategories(category) {
+      if (category.name !== 'All') {
+        return;
+      }
       for (var i = 0; i < $scope.categories.length; i += 1) {
-        $scope.categories[i].value = $scope.showAll;
+        $scope.categories[i].value = category.value;
       }
     }
   }]);

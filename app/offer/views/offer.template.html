@@ -4,16 +4,19 @@
             <div>
                 <p>{{ 'Categories' | translate }}:</p>
             </div>
-            <md-checkbox ng-model="showAll" ng-change="toggleCategories($event)">
-                {{ 'All' | translate }}
-            </md-checkbox>
-            <md-checkbox ng-model="category.value" aria-label="{{ category.name | translate }}" ng-repeat="category in categories">
+            <md-checkbox ng-model="category.value" ng-change="toggleCategories(category)" aria-label="{{ category.name | translate }}"
+                ng-repeat="category in categories">
                 {{ category.name | translate }}
             </md-checkbox>
         </div>
         <div layout="column" layout-gt-sm="row" layout-align="start center" layout-align-gt-sm="start start" layout-wrap>
             <div flex="100" flex-gt-sm="25" ng-repeat="sock in socks | categoryFilter:categories as filtered">
                 <md-card ui-sref="details({offerId: sock.id})">
+                    <md-card-header>
+                        <md-card-header-text>
+                            <span class="md-title">{{sock.name |translate}}</span>
+                        </md-card-header-text>
+                    </md-card-header>
                     <img ng-src="/images/socks/{{sock.id}}.jpg" class="md-card-image" alt="{{sock.name | translate}}">
                     <md-card-title>
                         <md-card-title-text>
