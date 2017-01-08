@@ -14,22 +14,22 @@
     </div>
     <div flex-gt-sm="60" layout="row" layout-align="start start" layout-wrap>
       <div flex="33">
-        <md-card>
+        <md-card ui-sref="details({offerId: 'm06'})">
           <img src="/images/home/m06.jpg" class="md-card-image" alt="{{'Skarpety męskie' | translate}}" width="200px" height="298px">
         </md-card>
       </div>
       <div flex="33">
-        <md-card>
+        <md-card ui-sref="details({offerId: 'm02'})">
           <img src="/images/home/m02.jpg" class="md-card-image" alt="{{'Skarpety damskie' | translate}}" width="200px" height="298px">
         </md-card>
       </div>
       <div flex="33">
-        <md-card>
+        <md-card ui-sref="details({offerId: 'f01'})">
           <img src="/images/home/f01.jpg" class="md-card-image" alt="{{'Skarpety damskie' | translate}}" width="200px" height="298px">
         </md-card>
       </div>
       <div flex="33">
-        <md-card>
+        <md-card ui-sref="details({offerId: 'w01'})">
           <img src="/images/home/w01.jpg" class="md-card-image" alt="{{'Skarpety damskie' | translate}}" width="200px" height="298px">
         </md-card>
       </div>
@@ -39,7 +39,7 @@
         </md-card>
       </div>
       <div flex="33">
-        <md-card>
+        <md-card ui-sref="details({offerId: 'k04'})">
           <img src="/images/home/k04.jpg" class="md-card-image" alt="{{'Skarpety damskie' | translate}}" width="200px" height="298px">
         </md-card>
       </div>
@@ -47,7 +47,7 @@
   </div>
   <md-divider></md-divider>
   <div layout="column" layout-gt-sm="row">
-    <md-card class="orange-card" flex="50">
+    <md-card class="orange-card" flex-gt-sm="50">
       <md-card-content>
         <h2>{{ 'Join the group of satisfied customers' | translate }}</h2>
       </md-card-content>
@@ -55,7 +55,7 @@
         <md-button ui-sref="contact">{{ 'Contact' | translate }}</md-button>
       </md-card-actions>
     </md-card>
-    <md-card class="cyan-card" flex="50">
+    <md-card class="cyan-card" flex-gt-sm="50">
       <md-card-content>
         <h2>{{ 'exists since 1989' | translate }}!</h2>
         <p>{{ 'Company Dziewiarstwo Maszynowe Mieczysław Klimczak exists on market since 1989.' | translate }}</p>
