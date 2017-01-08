@@ -2,7 +2,7 @@
     <div layout="column">
         <div layout="row" layout-align="start center" layout-margin layout-wrap>
             <div>
-                <p>{{ 'Categories' | translate }}:</p>
+                {{ 'Categories' | translate }}:
             </div>
             <md-checkbox ng-model="category.value" ng-change="toggleCategories(category)" aria-label="{{ category.name | translate }}"
                 ng-repeat="category in categories">
