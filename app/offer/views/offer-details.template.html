@@ -1,6 +1,9 @@
 <div layout="row" flex-offset-gt-sm="10" flex-gt-sm="80">
+    <div layout="column"  layout-align="center center" layout-padding flex="10">
+            <i class="material-icons" style="font-size: 48px;"  ng-if="beforeSelectedSock !== null" ui-sref="details({offerId: beforeSelectedSock.id})">chevron_left</i>
+    </div>
     <div layout="column" layout-gt-sm="row" layout-align="start center" layout-align-gt-sm="space-around none" layout-padding
-        flex="100">
+        flex="80">
         <div>
             <img ng-src="/images/socks/{{sock.id}}.jpg" width="340" height="600" class="md-card-image" alt="{{sock.name | translate}}">
         </div>
@@ -44,5 +47,8 @@
             </md-button>
 
         </div>
+    </div>
+    <div layout="column"  layout-align="center center" layout-padding flex="10">
+            <i class="material-icons" style="font-size: 48px;"  ng-if="afterSelectedSock !== null" ui-sref="details({offerId: afterSelectedSock.id})">chevron_right</i>
     </div>
 </div>
