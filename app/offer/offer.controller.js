@@ -1,7 +1,7 @@
 "use strict";
 angular.module('mikApp').controller('OfferController', [
-  '$scope', 'OfferService',
-  function ($scope, OfferService) {
+  '$scope', 'OfferService', '$mdDialog',
+  function ($scope, OfferService, $mdDialog) {
     $scope.socks = [];
     $scope.categories = OfferService.getCategories();
     $scope.showAll = true;
@@ -13,7 +13,12 @@ angular.module('mikApp').controller('OfferController', [
         $scope.socks = data.data.socks;
       }, function (data) {
         console.error(data);
-        OfferService.showErrorDialog().then(function () {
+        $mdDialog.show($mdDialog.confirm({
+          title: 'Request failed',
+          textContent: 'HTTP request has failed. Please try again later.',
+          ok: 'Try Again',
+          cancel: 'Cancel'
+        })).then(function () {
           loadOffer();
         });
       });

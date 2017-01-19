@@ -22,6 +22,7 @@
         "valid-typeof": "warn"
     },
     "globals": {
-        "angular": true
+        "angular": true,
+        "inject": true
     }
 }

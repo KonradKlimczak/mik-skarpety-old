@@ -1,5 +1,5 @@
-angular.module('mikApp').service('OfferService', ['$http', '$mdDialog',
-  function ($http, $mdDialog) {
+angular.module('mikApp').service('OfferService', ['$http',
+  function ($http) {
     var categories = [{
       'name': 'All',
       'value': true
@@ -42,7 +42,6 @@ angular.module('mikApp').service('OfferService', ['$http', '$mdDialog',
     this.getOffer = getOffer;
     this.getOfferById = getOfferById;
     this.getCategories = getCategories;
-    this.showErrorDialog = showErrorDialog;
     this.getColors = getColors;
 
     function getOffer() {
@@ -58,15 +57,6 @@ angular.module('mikApp').service('OfferService', ['$http', '$mdDialog',
         name: 'NotImplementedError',
         message: 'This function is not implemented due to missing backend of app.'
       };
-    }
-
-    function showErrorDialog() {
-      return $mdDialog.show($mdDialog.confirm({
-        title: 'Request failed',
-        textContent: 'HTTP request has failed. Please try again later.',
-        ok: 'Try Again',
-        cancel: 'Cancel'
-      }));
     }
 
     function getColors() {
