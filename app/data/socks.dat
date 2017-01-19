@@ -648,6 +648,23 @@
       "amount": 5
     },
     {
+      "id": "fh01",
+      "name": "Half-Frotte Socks",
+      "categories": [
+        "Frotte"
+      ],
+      "sizes": [
+        "38-40",
+        "41-43"
+      ],
+      "colors": [
+      ],
+      "descriptions": [
+        "Perfect for autumn or winter."
+      ],
+      "amount": 5
+    },
+    {
       "id": "fh02",
       "name": "Half-Frotte 3/4 Socks",
       "categories": [
@@ -661,6 +678,7 @@
       "colors": [
       ],
       "descriptions": [
+        "Perfect for autumn or winter.",
         "Flat seam."
       ],
       "amount": 5
@@ -679,6 +697,7 @@
       "colors": [
       ],
       "descriptions": [
+        "Perfect for autumn or winter."
       ],
       "amount": 5
     },
