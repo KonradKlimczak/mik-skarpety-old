@@ -6,9 +6,15 @@
   "scripts": {
     "predevelopment": "node-sass scss/ -o css/",
     "development": "concurrently --kill-others \"lite-server\" \"node-sass -w scss/ -o css/\"",
+
     "production": "lite-server -c ./dist/lite-server.prod.conf",
+
+    "prebuild": "npm run protractor",
     "build": "gulp build-app",
-    "test": "karma start karma.conf.js"
+    "test": "karma start karma.conf.js",
+    "update-webdriver": "webdriver-manager update",
+    "protractor": "protractor e2e-tests/protractor.conf.js",
+    "protractor-shell": "protractor --elementExplorer"
   },
   "repository": {
     "type": "git",
@@ -51,6 +57,7 @@
     "karma-chrome-launcher": "^2.0.0",
     "karma-jasmine": "^1.1.0",
     "lite-server": "^2.2.2",
-    "node-sass": "^4.1.1"
+    "node-sass": "^4.1.1",
+    "protractor": "^5.0.0"
   }
 }
