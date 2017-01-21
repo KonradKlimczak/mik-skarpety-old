@@ -1,6 +1,6 @@
 <div layout="row" flex-offset-gt-sm="10" flex-gt-sm="80">
     <div layout="column"  layout-align="center center" layout-padding flex="10">
-            <i class="material-icons" style="font-size: 48px;"  ng-if="beforeSelectedSock !== null" ui-sref="details({offerId: beforeSelectedSock.id})">chevron_left</i>
+        <i class="material-icons move-arrow" ng-if="beforeSelectedSock" ui-sref="details({offerId: beforeSelectedSock.id})">chevron_left</i>
     </div>
     <div layout="column" layout-gt-sm="row" layout-align="start center" layout-align-gt-sm="space-around none" layout-padding
         flex="80">
@@ -49,6 +49,6 @@
         </div>
     </div>
     <div layout="column"  layout-align="center center" layout-padding flex="10">
-            <i class="material-icons" style="font-size: 48px;"  ng-if="afterSelectedSock !== null" ui-sref="details({offerId: afterSelectedSock.id})">chevron_right</i>
+        <i class="material-icons move-arrow" ng-if="afterSelectedSock" ui-sref="details({offerId: afterSelectedSock.id})">chevron_right</i>
     </div>
 </div>
