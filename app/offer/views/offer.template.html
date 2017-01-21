@@ -9,8 +9,8 @@
                 {{ category.name | translate }}
             </md-checkbox>
         </div>
-        <div layout="column" layout-gt-sm="row" layout-align="start center" layout-align-gt-sm="start start" layout-wrap>
-            <div flex="100" flex-gt-sm="25" ng-repeat="sock in socks | categoryFilter:categories as filtered">
+        <div layout="column" layout-gt-sm="row" layout-gt-lg="row" layout-align="start center" layout-align-gt-sm="start start" layout-wrap>
+            <div flex="100" flex-gt-sm="25" flex-gt-lg="10" ng-repeat="sock in socks | categoryFilter:categories as filtered">
                 <md-card ui-sref="details({offerId: sock.id})">
                     <md-card-header>
                         <md-card-header-text>
