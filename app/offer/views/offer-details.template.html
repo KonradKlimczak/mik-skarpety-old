@@ -1,20 +1,18 @@
-<div layout="row" flex-offset-gt-sm="10" flex-gt-sm="80">
+<div  layout="column" layout-gt-sm="row" flex-offset-gt-sm="10" flex-gt-sm="80">
     <div layout="column"  layout-align="center center" layout-padding flex="10">
         <i class="material-icons move-arrow" ng-if="beforeSelectedSock" ui-sref="details({offerId: beforeSelectedSock.id})">chevron_left</i>
     </div>
-    <div layout="column" layout-gt-sm="row" layout-align="start center" layout-align-gt-sm="space-around none" layout-padding
-        flex="80">
+    <div layout="column" layout-gt-sm="row" layout-align="start center" layout-align-gt-sm="space-around none" layout-padding flex="80">
         <div>
             <img ng-src="/images/socks/{{sock.id}}.jpg" width="340" height="600" class="md-card-image" alt="{{sock.name | translate}}">
         </div>
-        <div layout="column">
+        <div layout="column" >
             <h1> {{ sock.name | translate }} </h1>
             <h3>ID: {{sock.id}}</h3>
             <md-list>
                 <md-list-item class="md-2-line" ng-repeat="description in sock.descriptions">
                     <md-checkbox></md-checkbox>
                     <div class="md-list-item-text">
-                        <!--<h3>Title</h3>-->
                         <p>{{description | translate}}</p>
                     </div>
                 </md-list-item>
@@ -42,7 +40,7 @@
             <div>
                 {{ 'Amount in package' | translate }}: <b>{{sock.amount}} par</b>
             </div>
-            <md-button ui-sref="offer" hide show-gt-sm>
+            <md-button ui-sref="offer">
                 {{ 'Go back' | translate }}
             </md-button>
 

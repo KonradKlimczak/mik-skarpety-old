@@ -9,7 +9,6 @@
 
     "production": "lite-server -c ./dist/lite-server.prod.conf",
 
-    "prebuild": "npm run protractor",
     "build": "gulp build-app",
     "test": "karma start karma.conf.js",
     "update-webdriver": "webdriver-manager update",

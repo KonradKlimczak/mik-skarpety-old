@@ -1,8 +1,9 @@
 "use strict";
-angular.module('mikApp').controller('OfferDetailsController', ['$scope', 'OfferService', '$stateParams',
-  function ($scope, OfferService, $stateParams) {
-    $scope.beforeSelectedSock = null;
-    $scope.afterSelectedSock = null;    
+angular.module('mikApp').controller('OfferDetailsController', ['$scope', 'OfferService', '$stateParams', '$state',
+  function ($scope, OfferService, $stateParams, $state) {
+    $scope.beforeSelectedSock;
+    $scope.afterSelectedSock;
+    $scope.goToSock = goToSock;
 
     OfferService.getOffer().then(function (data) {
       var socks = data.data.socks;
@@ -19,7 +20,14 @@ angular.module('mikApp').controller('OfferDetailsController', ['$scope', 'OfferS
           break;
         }
       }
-    }, function (data, status, headers, config) {
+    }, function () {
       console.log('error');
     });
+
+    function goToSock(sock) {
+      if (!sock) {
+        return;
+      }
+      $state.go('details', {offerId: sock.id});
+    }
   }]);
