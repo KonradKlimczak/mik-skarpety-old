@@ -1,0 +1,13 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+.main-menu {
+  background-color: red;
+}
+.main-menu-list {
+  float: right
+}
