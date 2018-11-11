@@ -109,6 +109,26 @@
       "amount": 10
     },
     {
+      "id": "m08",
+      "name": "Men Socks",
+      "categories": [
+        "Men"
+      ],
+      "sizes": [
+        "38-40",
+        "41-43",
+        "44-46"
+      ],
+      "colors": [],
+      "descriptions": [
+        "Made from high quality combed cotton.",
+        "Different patterns.",
+        "Flat seam.",
+        "Wide ribbing causing no pinching."
+      ],
+      "amount": 10
+    },
+    {
       "id": "m05",
       "name": "Men Socks",
       "categories": [

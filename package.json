@@ -6,9 +6,7 @@
   "scripts": {
     "predevelopment": "node-sass scss/ -o css/",
     "development": "concurrently --kill-others \"lite-server\" \"node-sass -w scss/ -o css/\"",
-
     "production": "lite-server -c ./dist/lite-server.prod.conf",
-
     "build": "gulp build-app",
     "test": "karma start karma.conf.js",
     "update-webdriver": "webdriver-manager update",
