@@ -465,6 +465,25 @@
       "amount": 10
     },
     {
+      "id": "stopki-truskawki",
+      "name": "Short Socks",
+      "categories": [
+        "Short"
+      ],
+      "sizes": [
+        "35-37",
+        "38-40",
+        "41-43",
+        "44-46"
+      ],
+      "colors": [
+      ],
+      "descriptions": [
+        "Flat seam."
+      ],
+      "amount": 10
+    },
+    {
       "id": "p01",
       "name": "Under Knee Socks",
       "categories": [
